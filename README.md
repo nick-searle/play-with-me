@@ -26,10 +26,12 @@ func azure functionapp publish bccg-ns-test-func
 
 func start
 
+## Local
 - curl 'http://localhost:7071/api/CheckTargetStatus?mode=-l'
 - curl 'http://localhost:7071/api/CheckNeweggStatus?mode=-l'
 - curl 'http://localhost:7071/api/CheckGamestopStatus?mode=-l'
 
+## Azure
 - curl 'https://bccg-ns-test-func.azurewebsites.net/api/checktargetstatus?mode=-l&code=woxKa6bScWocvrGV6zZIjoOoHdVI3V5yxWz1bhekISzzFuafL5GkKg=='
 - curl 'https://bccg-ns-test-func.azurewebsites.net/api/checkneweggstatus?mode=-l&code=uIsqGlUhAv7FVZhIHaJin6U4A050ak0l2ucHnkq6sCaajUCyBAR/jw=='
 - curl 'https://bccg-ns-test-func.azurewebsites.net/api/checkgamestopstatus?mode=-l&code=5t2DeTTf4aslgSY2TUy3QDOfEeGO9muNvP4nPH8tZRRb6A8OTHEBPA=='
@@ -57,15 +59,20 @@ cp -R ~/workspace/play-with-me/console/bin/Release/net5.0/osx.10.14-x64/publish/
 
 ### TODO
 
+## Target
 - Add Target cart checkout
 
+## Newegg
 - Add Newegg cart checkout
 - Add support for searching Newegg
 
+## Gamestop
 - Add Gamestop search
 - Add Gamestop store lookup (response captured)
 - Add Gamestop cart
 
+## Walmart
 - Add Walmart
 
+## Future
 - Add flexible search to work for anything not just PS5
