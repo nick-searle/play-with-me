@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Threading;
+using console.Services;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using play_with_me.common.Helpers;
@@ -33,6 +34,9 @@ namespace play_with_me
             Console.WriteLine($"Mode: '{mode}'");
             Console.WriteLine();
 
+            var targetService = new TargetService();
+            var neweggService = new NeweggService();
+
             var random = new Random(1);            
             do
             {
@@ -41,9 +45,9 @@ namespace play_with_me
 
                 if (DateTime.Now.Hour > 4)
                 {
-                    var items = CheckTarget();
+                    var items = targetService.CheckTarget(mode);
 
-                    items.AddRange(CheckNewegg());
+                    items.AddRange(neweggService.CheckNewegg(mode));
 
                     items = items.Where(i => i.Instock).ToList();
                     
@@ -65,29 +69,6 @@ namespace play_with_me
 
                 Thread.Sleep(wait);
             } while(true);
-        }
-
-        private static List<SearchItem> CheckNewegg()
-        {
-            var funcUrl = $"https://bccg-ns-test-func.azurewebsites.net/api/checkneweggstatus?mode={mode}&code=uIsqGlUhAv7FVZhIHaJin6U4A050ak0l2ucHnkq6sCaajUCyBAR/jw==";
-
-            if (mode.Contains("-d"))
-            {
-                funcUrl = $"http://localhost:7071/api/CheckNeweggStatus/?mode={mode}";
-            }
-
-            Console.WriteLine($"Newegg func: {funcUrl}");
-            Console.WriteLine();
-
-            var response = httpHelper.GetStringResponse(funcUrl);
-            Console.WriteLine($"Newegg func response: {response}");
-            Console.WriteLine();
-            
-            var items = JsonConvert.DeserializeObject<List<SearchItem>>(response);
-            Console.WriteLine($"Newegg Response: {JsonConvert.SerializeObject(items)}");
-            Console.WriteLine();
-            
-            return items;
         }
 
         private static void AddTargetCart(List<TargetSearchItem> items)
@@ -135,35 +116,6 @@ namespace play_with_me
                     }}
                 }}";            
             return string.Format(body, item.Tcin);
-        }
-        
-        private static List<SearchItem> CheckTarget()
-        {
-            var rawResponse = httpHelper.GetResponse("https://www.target.com");
-            var responseHeaders = rawResponse.Headers;
-            var visitorId = httpHelper.GetCookie(responseHeaders, "visitorId");
-            Console.WriteLine($"Key: {visitorId}");
-            Console.WriteLine();
-
-            var funcUrl = $"https://bccg-ns-test-func.azurewebsites.net/api/checktargetstatus?mode={mode}&key={visitorId}&code=woxKa6bScWocvrGV6zZIjoOoHdVI3V5yxWz1bhekISzzFuafL5GkKg==";
-
-            if (mode.Contains("-d"))
-            {
-                funcUrl = $"http://localhost:7071/api/CheckTargetStatus/?mode={mode}&key={visitorId}";
-            }
-
-            Console.WriteLine($"Target func: {funcUrl}");
-            Console.WriteLine();
-
-            var response = httpHelper.GetStringResponse(funcUrl);
-            Console.WriteLine($"Target func response: {response}");
-            Console.WriteLine();
-            
-            var items = JsonConvert.DeserializeObject<List<SearchItem>>(response);
-            Console.WriteLine($"Target Response: {JsonConvert.SerializeObject(items)}");
-            Console.WriteLine();
-
-            return items;
         }
     }
 }
