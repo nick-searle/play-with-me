@@ -80,6 +80,36 @@ ssh -i mainkey.pem azureuser@52.152.162.60
 ### Copy to VM
 scp -r -i mainkey.pem ~/workspace/console-apps/play-with-me/linux azureuser@52.152.162.60:apps/play-with-me/
 
+### Run on VM
+screen
+
+./play-with-me -l -e
+
+### Reconnect
+
+screen -r
+
+### Screen
+ssh me@myserver.com
+screen               #start a screen session
+run-a-long-process
+CTRL+a , d to detatch from your screen session
+
+exit                 #disconnect from the server, while run-a-long-process continues
+When you come back to your laptop:
+
+ssh me@myserver.com
+screen -r            #resume the screen session
+Then check out the progress of your long-running process!
+
+screen is a very comprehensive tool, and can do a lot more than what I've described. While in a screen session, try ctrl+a,? to learn a few common commands. Probably the most common are:
+
+CTRL+a , c to create a new window
+CTRL+a , n to switch to the next window in your screen session
+CTRL+a , p to switch to the previous window in your screen session
+if you log in from a bunch of different systems, you may have accidentally left yourself attached to an active screen session on a different computer. for that reason, I always resume with screen -d -r to ensure that if another shell is attached to my screen session, it will be detached before I resume it on my current system.
+
+
 # TODO
 
 ### Target
