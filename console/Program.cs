@@ -44,9 +44,9 @@ namespace play_with_me
                 Console.WriteLine($"Running at {DateTime.Now}");
                 Console.WriteLine();
 
-                var items = targetService.CheckTarget(mode);
-                items.AddRange(neweggService.CheckNewegg(mode));
-                items.AddRange(gamestopService.CheckGamestop(mode));
+                var items = targetService.GetItemStatuses(mode);
+                items.AddRange(neweggService.GetItemStatuses(mode));
+                items.AddRange(gamestopService.GetItemStatuses(mode));
 
                 items = items.Where(i => i.Instock).ToList();
                 
