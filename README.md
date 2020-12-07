@@ -64,11 +64,6 @@ cp -R ~/workspace/play-with-me/console/bin/Release/net5.0/osx.10.14-x64/publish/
 ### Publish to folder as self contained
 dotnet publish -c Release -r 'linux-x64' --self-contained true
 
-### Copy to local apps
-mkdir ~/workspace/console-apps/play-with-me/linux
-rm -rf ~/workspace/console-apps/play-with-me/linux
-cp -R ~/workspace/play-with-me/console/bin/Release/net5.0/linux-x64/publish/ ~/workspace/console-apps/play-with-me/linux
-
 # Run published 
 
 ./play-with-me -l -e
@@ -78,7 +73,7 @@ cp -R ~/workspace/play-with-me/console/bin/Release/net5.0/linux-x64/publish/ ~/w
 ssh -i mainkey.pem azureuser@52.152.162.60
 
 ### Copy to VM
-scp -r -i mainkey.pem ~/workspace/console-apps/play-with-me/linux azureuser@52.152.162.60:apps/play-with-me/
+scp -r -i mainkey.pem ~/workspace/play-with-me/console/bin/Release/net5.0/linux-x64/publish azureuser@52.152.162.60:apps/play-with-me/
 
 ### Run on VM
 screen
