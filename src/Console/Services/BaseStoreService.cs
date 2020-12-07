@@ -53,7 +53,7 @@ namespace PlayWithMe.ConsoleApp.Services
 
                     if (timeSinceLastError.Value.TotalHours < waitTime)
                     {
-                        log.Error($"{storeName} Fails Count {consecutiveFails} Waiting: {waitTime}");
+                        log.Error($"{storeName} Fails Count {consecutiveFails} Waiting: {waitTime} hour");
                         log.Error("");
                         return items;
                     }
