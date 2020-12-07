@@ -67,7 +67,7 @@ dotnet publish -c Release -r 'linux-x64' --self-contained true
 ### Copy to local apps
 mkdir ~/workspace/console-apps/play-with-me/linux
 rm -rf ~/workspace/console-apps/play-with-me/linux
-cp -R ~/workspace/play-with-me/console/bin/Release/net5.0/osx.10.14-x64/publish/ ~/workspace/console-apps/play-with-me/linux
+cp -R ~/workspace/play-with-me/console/bin/Release/net5.0/linux-x64/publish/ ~/workspace/console-apps/play-with-me/linux
 
 # Run published 
 
