@@ -43,7 +43,7 @@ namespace play_with_me
                 {
                     var items = CheckTarget();
 
-                    items.Add(CheckNewegg());
+                    items.AddRange(CheckNewegg());
 
                     items = items.Where(i => i.Instock).ToList();
                     
@@ -67,28 +67,27 @@ namespace play_with_me
             } while(true);
         }
 
-        private static SearchItem CheckNewegg()
+        private static List<SearchItem> CheckNewegg()
         {
-            JObject ps5;
-            if (mode.Contains("-l"))
+            var funcUrl = $"https://bccg-ns-test-func.azurewebsites.net/api/checkneweggstatus?mode={mode}&code=uIsqGlUhAv7FVZhIHaJin6U4A050ak0l2ucHnkq6sCaajUCyBAR/jw==";
+
+            if (mode.Contains("-d"))
             {
-                ps5 = JsonConvert.DeserializeObject<JObject>(httpHelper.GetStringResponse($"https://www.newegg.com/product/api/ProductRealtime?ItemNumber=68-110-292&RecommendItem=&BestSellerItemList=&IsVATPrice=true"));
+                funcUrl = $"http://localhost:7071/api/CheckNeweggStatus/?mode={mode}";
             }
-            else
-            {
-                ps5 = JsonConvert.DeserializeObject<JObject>(File.ReadAllText("../func/requests/newegg/newegg-ps5-response.json"));
-            }
-            
-            var item = new SearchItem
-            {
-                Url = "https://www.newegg.com/p/N82E16868110292?Description=ps5&cm_re=ps5-_-68-110-292-_-Product&quicklink=true",
-                Instock = (bool)ps5["MainItem"]["Instock"],
-                Title = ps5["MainItem"]["Description"]["Title"]?.ToString()
-            };
-            Console.WriteLine($"Newegg Response: {JsonConvert.SerializeObject(item)}");
+
+            Console.WriteLine($"Newegg func: {funcUrl}");
+            Console.WriteLine();
+
+            var response = httpHelper.GetStringResponse(funcUrl);
+            Console.WriteLine($"Newegg func response: {response}");
             Console.WriteLine();
             
-            return item;
+            var items = JsonConvert.DeserializeObject<List<SearchItem>>(response);
+            Console.WriteLine($"Newegg Response: {JsonConvert.SerializeObject(items)}");
+            Console.WriteLine();
+            
+            return items;
         }
 
         private static void AddTargetCart(List<TargetSearchItem> items)
