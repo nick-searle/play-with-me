@@ -16,6 +16,8 @@ namespace PlayWithMe.ConsoleApp.Services
         private readonly string storeName;
         private readonly string methodName;
         private readonly string key;
+        private int consecutiveFails = 0;
+        private DateTime? lastError = null;
 
         public BaseStoreService(string storeName, string methodName, string key)
         {
@@ -23,11 +25,40 @@ namespace PlayWithMe.ConsoleApp.Services
             this.methodName = methodName;
             this.key = key;
         }
-        
+
+        private int GetWaitTime()
+        {
+            switch (consecutiveFails)
+            {
+                case 1:
+                    return 1;
+                case 2:
+                    return 2;
+                case 3:
+                    return 8;
+                default:
+                    return 24;
+            }
+        }
+
         public List<SearchItem> GetItemStatuses(string mode)
         {
+            var items = new List<SearchItem>();
             try
-            {
+            {                
+                if (consecutiveFails > 0)
+                {
+                    var timeSinceLastError = DateTime.Now - lastError;
+                    var waitTime = GetWaitTime();
+
+                    if (timeSinceLastError.Value.TotalHours < waitTime)
+                    {
+                        log.Error($"{storeName} Fails Count {consecutiveFails} Waiting: {waitTime}");
+                        log.Error("");
+                        return items;
+                    }
+                }
+
                 var funcUrl = $"https://bccg-ns-test-func.azurewebsites.net/api/{methodName}?mode={mode}&code={key}";
 
                 if (mode.Contains("-d"))
@@ -42,7 +73,7 @@ namespace PlayWithMe.ConsoleApp.Services
                 log.Info($"{storeName} func response: {response}");
                 log.Info("");
                 
-                var items = JsonConvert.DeserializeObject<List<SearchItem>>(response);
+                items = JsonConvert.DeserializeObject<List<SearchItem>>(response);
                 log.Info($"{storeName} Response: {JsonConvert.SerializeObject(items)}");
                 log.Info("");
 
@@ -50,8 +81,10 @@ namespace PlayWithMe.ConsoleApp.Services
             }
             catch (Exception ex)
             {
+                consecutiveFails++;
+                lastError = DateTime.Now;
                 log.Error(ex);
-                return new List<SearchItem>();
+                return items;
             }
         }
     }

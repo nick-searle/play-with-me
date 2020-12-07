@@ -38,13 +38,14 @@ namespace PlayWithMe.ConsoleApp
                 return;
             }
 
-            log.Info($"Mode test: '{mode}'");
+            log.Info($"Mode: '{mode}'");
             log.Info("");
 
             var targetService = new TargetService();
             var neweggService = new NeweggService();
             var gamestopService = new GamestopService();
-
+            
+            var count = 0;
             var random = new Random(1);            
             do
             {
@@ -52,7 +53,17 @@ namespace PlayWithMe.ConsoleApp
                 log.Info("");
 
                 var items = targetService.GetItemStatuses(mode);
-                items.AddRange(neweggService.GetItemStatuses(mode));
+                
+                if (count % 3 == 0)
+                {
+                    items.AddRange(neweggService.GetItemStatuses(mode));
+                }
+                else
+                {
+                    log.Info("Newegg set to run every 3rd run");
+                    log.Info("");
+                }
+
                 items.AddRange(gamestopService.GetItemStatuses(mode));
 
                 items = items.Where(i => i.Instock).ToList();
@@ -72,6 +83,7 @@ namespace PlayWithMe.ConsoleApp
                 log.Info($"No stock waiting {wait}");
                 log.Info("");
 
+                count++;
                 Thread.Sleep(wait);
             } while(true);
         }
