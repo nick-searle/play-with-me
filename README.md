@@ -47,7 +47,7 @@ ps -A | grep func
 personal: ff457966e64d5e877fdbad070f276d18ecec4a01
 
 
-# Publish console
+# Publish console MacOS
 
 https://docs.microsoft.com/en-us/dotnet/core/deploying/deploy-with-cli
 
@@ -55,10 +55,30 @@ https://docs.microsoft.com/en-us/dotnet/core/deploying/deploy-with-cli
 dotnet publish -c Release -r 'osx.10.14-x64' --self-contained true
 
 ### Copy to local apps
-rm -rf ~/workspace/console-apps/play-with-me
-cp -R ~/workspace/play-with-me/console/bin/Release/net5.0/osx.10.14-x64/publish/ ~/workspace/console-apps/play-with-me
+mkdir ~/workspace/console-apps/play-with-me/macos
+rm -rf ~/workspace/console-apps/play-with-me/macos
+cp -R ~/workspace/play-with-me/console/bin/Release/net5.0/osx.10.14-x64/publish/ ~/workspace/console-apps/play-with-me/macos
+
+# Publish console Linux
+
+### Publish to folder as self contained
+dotnet publish -c Release -r 'linux-x64' --self-contained true
+
+### Copy to local apps
+mkdir ~/workspace/console-apps/play-with-me/linux
+rm -rf ~/workspace/console-apps/play-with-me/linux
+cp -R ~/workspace/play-with-me/console/bin/Release/net5.0/osx.10.14-x64/publish/ ~/workspace/console-apps/play-with-me/linux
+
+# Run published 
 
 ./play-with-me -l -e
+
+# Connect to VM
+
+ssh -i mainkey.pem azureuser@52.152.162.60
+
+### Copy to VM
+scp -r -i mainkey.pem ~/workspace/console-apps/play-with-me/linux azureuser@52.152.162.60:apps/play-with-me/
 
 # TODO
 
