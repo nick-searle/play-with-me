@@ -44,24 +44,21 @@ namespace play_with_me
                 Console.WriteLine($"Running at {DateTime.Now}");
                 Console.WriteLine();
 
-                if (DateTime.Now.Hour > 4)
-                {
-                    var items = targetService.CheckTarget(mode);
-                    items.AddRange(neweggService.CheckNewegg(mode));
-                    items.AddRange(gamestopService.CheckGamestop(mode));
+                var items = targetService.CheckTarget(mode);
+                items.AddRange(neweggService.CheckNewegg(mode));
+                items.AddRange(gamestopService.CheckGamestop(mode));
 
-                    items = items.Where(i => i.Instock).ToList();
-                    
-                    if (items.Any())
+                items = items.Where(i => i.Instock).ToList();
+                
+                if (items.Any())
+                {
+                    if (mode.Contains("-e"))
                     {
-                        if (mode.Contains("-e"))
-                        {
-                            var emailService = new EmailService();
-                            emailService.EmailAvailability(items);
-                        }
-                        Console.WriteLine("AVAILABLE!!!");
-                        return;
+                        var emailService = new EmailService();
+                        emailService.EmailAvailability(items);
                     }
+                    Console.WriteLine("AVAILABLE!!!");
+                    return;
                 }
 
                 var wait = 10000 + random.Next(8000);
