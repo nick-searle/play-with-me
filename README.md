@@ -80,3 +80,7 @@ cp -R ~/workspace/play-with-me/console/bin/Release/net5.0/osx.10.14-x64/publish/
 ### Future
 - Add flexible search to work for anything not just PS5
 - Add multi-threading to the console
+
+# Azure Functions Billing
+
+https://www.nigelfrank.com/blog/ask-the-expert-measuring-the-cost-of-azure-functions/
