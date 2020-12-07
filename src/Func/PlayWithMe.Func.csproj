@@ -27,6 +27,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Common-case\PlayWithMe.Common.csproj" />
+    <ProjectReference Include="..\Common\PlayWithMe.Common.csproj" />
   </ItemGroup>
 </Project>
