@@ -17,7 +17,7 @@ az storage account create --name bccgnsteststr --location eastus --resource-grou
 az functionapp create --resource-group bccg-ns-test-rg --consumption-plan-location eastus2 --runtime dotnet --functions-version 3 --name   bccg-ns-test-func --storage-account bccgnsteststr  
 
 
-# Publish
+# Publish function app
 
 func azure functionapp publish bccg-ns-test-func  
 
@@ -57,7 +57,7 @@ dotnet publish -c Release -r 'osx.10.14-x64' --self-contained true
 ### Copy to local apps
 mkdir ~/workspace/console-apps/play-with-me/macos  
 rm -rf ~/workspace/console-apps/play-with-me/macos  
-cp -R ~/workspace/play-with-me/console/bin/Release/net5.0/osx.10.14-x64/publish/ ~/workspace/console-apps/play-with-me/macos  
+cp -R ~/workspace/play-with-me/src/Console/bin/Release/net5.0/osx.10.14-x64/publish/ ~/workspace/console-apps/play-with-me/macos  
 
 # Publish console Linux
 
@@ -73,7 +73,7 @@ dotnet publish -c Release -r 'linux-x64' --self-contained true
 ssh -i mainkey.pem azureuser@52.152.162.60
 
 ### Copy to VM
-scp -r -i mainkey.pem ~/workspace/play-with-me/console/bin/Release/net5.0/linux-x64/publish azureuser@52.152.162.60:apps/play-with-me/
+scp -r -i mainkey.pem ~/workspace/play-with-me/src/Console/bin/Release/net5.0/linux-x64/publish azureuser@52.152.162.60:apps/play-with-me/
 
 ### Run on VM
 screen
