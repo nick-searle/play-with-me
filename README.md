@@ -51,8 +51,11 @@ personal: ff457966e64d5e877fdbad070f276d18ecec4a01
 
 https://docs.microsoft.com/en-us/dotnet/core/deploying/deploy-with-cli
 
+### Publish to folder as self contained
 dotnet publish -c Release -r 'osx.10.14-x64' --self-contained true
 
+### Copy to local apps
+rm -rf ~/workspace/console-apps/play-with-me
 cp -R ~/workspace/play-with-me/console/bin/Release/net5.0/osx.10.14-x64/publish/ ~/workspace/console-apps/play-with-me
 
 ./play-with-me -l -e
@@ -76,3 +79,4 @@ cp -R ~/workspace/play-with-me/console/bin/Release/net5.0/osx.10.14-x64/publish/
 
 ### Future
 - Add flexible search to work for anything not just PS5
+- Add multi-threading to the console
