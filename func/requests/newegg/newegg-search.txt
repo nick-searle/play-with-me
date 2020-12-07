@@ -1,0 +1,43 @@
+General:
+
+Request URL: https://www.newegg.com/p/pl?d=ps5&nm_mc=AFC-RAN-COM&cm_mmc=AFC-RAN-COM&utm_medium=affiliates&utm_source=afc-Future+Publishing+Ltd&AFFID=2294204&AFFNAME=Future+Publishing+Ltd&ACRID=1&ASUBID=trd-us-9280289584471940000&ASID=https%3A%2F%2Fwww.techradar.com%2Fnews%2Fwhere-to-buy-ps5-at-launch-heres-what-you-need-to-know&ranMID=44583&ranEAID=2294204&ranSiteID=kXQk6.ivFEQ-7zbX1LvwgPWTWiB_l75A3w&N=101696840&isdeptsrh=1
+Request Method: GET
+Status Code: 200 
+Remote Address: 184.26.80.227:443
+Referrer Policy: strict-origin-when-cross-origin
+
+Request Headers:
+
+:authority: www.newegg.com
+:method: GET
+:path: /p/pl?d=ps5&nm_mc=AFC-RAN-COM&cm_mmc=AFC-RAN-COM&utm_medium=affiliates&utm_source=afc-Future+Publishing+Ltd&AFFID=2294204&AFFNAME=Future+Publishing+Ltd&ACRID=1&ASUBID=trd-us-9280289584471940000&ASID=https%3A%2F%2Fwww.techradar.com%2Fnews%2Fwhere-to-buy-ps5-at-launch-heres-what-you-need-to-know&ranMID=44583&ranEAID=2294204&ranSiteID=kXQk6.ivFEQ-7zbX1LvwgPWTWiB_l75A3w&N=101696840&isdeptsrh=1
+:scheme: https
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+accept-encoding: gzip, deflate, br
+accept-language: en-US,en;q=0.9
+cache-control: max-age=0
+cookie: NV%5FW57=USA; NV%5FW62=en; NV%5FCONFIGURATION=#5%7B%22Sites%22%3A%7B%22USA%22%3A%7B%22Values%22%3A%7B%22w58%22%3A%22USD%22%2C%22w61%22%3A%221638838289879%22%7D%2C%22Exp%22%3A86400000000%7D%7D%7D; usprivacy=1---; _ga=GA1.2.992661132.1607302290; _gid=GA1.2.160456073.1607302290; mt.v=2.1515494004.1607302290531; nostojs=autoload; 2c.cId=5fcd7c9260b2df7f9dedad3d; mt.sc=%7B%22i%22%3A1607302290745%2C%22d%22%3A%5B%5D%7D; AMCVS_1E15776A524450BC0A490D44%40AdobeOrg=1; s_ecid=MCMID%7C15300642151155429862198495035985973717; s_cc=true; AMCV_1E15776A524450BC0A490D44%40AdobeOrg=870038026%7CMCIDTS%7C18604%7CMCMID%7C15300642151155429862198495035985973717%7CMCAAMLH-1607907090%7C9%7CMCAAMB-1607907090%7CRKhpRz8krg2tLO6pguXWp5olkAcUniQYPHaMWWgdJ3xzPWQmdj0y%7CMCOPTOUT-1607309491s%7CNONE%7CMCAID%7CNONE%7CMCSYNCSOP%7C411-18611%7CvVersion%7C5.0.0; _gcl_au=1.1.1824484737.1607302293; _fbp=fb.1.1607302292714.1866606604; cmp_choice=none; __ssds=2; __ssuzjsr2=a9be0cd8e; __uzmaj2=650dc1e2-9f2c-4bd2-8ef3-4cd2ab0c5a8a; __uzmbj2=1607302294; __gads=ID=f10886515d252400:T=1607302294:S=ALNI_MYy7iQw1UQNPcWR8EA1xsyynNG7Fw; xyz_cr_100393_et_137==NaN&cr=100393&wegc=&et=137&ap=; mt.mbsh=%7B%22fs%22%3A1607302291360%2C%22sf%22%3A1%2C%22lf%22%3A1607303013605%7D; s_sq=%5B%5BB%5D%5D; rmStoreGateway=amid%3A44583%7Cald%3A20201207_0111%7Catrv%3AkXQk6.ivFEQ-7zbX1LvwgPWTWiB_l75A3w; NSC_mc-xxx.ofxfhh.dpn-vsmibti=5ccba3d8e924e9d7f36f0b9e9ebfb8da3a86d0b6e9acdc98c58167ffd43e118f3ad8b57f; OptanonConsent=isIABGlobal=false&datestamp=Sun+Dec+06+2020+20%3A11%3A13+GMT-0500+(Eastern+Standard+Time)&version=6.6.0&hosts=&consentId=c594c37f-a8c6-41b7-83c8-fbb5777d4807&interactionCount=1&landingPath=NotLandingPage&groups=C0001%3A1%2CC0003%3A1%2CC0002%3A1%2CC0004%3A1&AwaitingReconsent=false&geolocation=US%3BNC; OptanonAlertBoxClosed=2020-12-07T01:11:13.756Z; _gat=1; mt.visits=%7B%22lastVisit%22%3A1607303474016%2C%22visits%22%3A%5B1%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%5D%7D; utag_main=v_id:01763aae9c6c004e23f8e1865b0c03078019e07000bd0$_sn:1$_se:8$_ss:0$_st:1607305274079$ses_id:1607302290541%3Bexp-session$_pn:8%3Bexp-session; _uetsid=59400dc0382611eba4b20f4bc205ea06; _uetvid=59403920382611ebbae383c394019a36; mp_newegg_mixpanel=%7B%22distinct_id%22%3A%20%221763aaea34b6a7-0b7f8ce6b5a94c-163a6153-1fa400-1763aaea34cf75%22%2C%22bc_persist_updated%22%3A%201607302292302%2C%22customer_country%22%3A%20%22US%22%7D; rmStore=amid:44583|ald:20201207_0111|atrv:kXQk6.ivFEQ-7zbX1LvwgPWTWiB_l75A3w; stc118799=ula:kXQk6.ivFEQ-7zbX1LvwgPWTWiB_l75A3w:20201207012133|tsa:0:20201207014114|env:1%7C20210107005133%7C20201207014114%7C8%7C1096538:20211207011114|uid:1607302293846.580054178.6369948.118799.870502785.8:20211207011114|srchist:1096538%3A1%3A20210107005133:20211207011114; __uzmcj2=433132253958; __uzmdj2=1607303475; s_pers=%20s_ev19%3D%255B%255B%2527afc%2527%252C%25271607302291035%2527%255D%255D%7C1765068691035%3B%20productnum%3D5%7C1609895473927%3B%20s_vs%3D1%7C1607305314801%3B%20s_cp_persist%3DAFC-RAN-COM%7C1609895514804%3B%20gpv_pv%3Dsearch%2520results%253Asuccessful%7C1607305314815%3B%20s_nr%3D1607303514817-New%7C1638839514817%3B%20gpvch%3Dsearch%7C1607305314818%3B; s_sess=%20s_cpc%3D0%3B%20s_evar36%3DAFC-RAN-COM%3B%20s_eVar37%3DAFC-RAN-COM%3B%20s_stv%3Dps5%3B%20s_evar17%3Dpage%2520viewed%253A1%252Csort%2520by%253Afeatured%2520items%252Cview%2520count%253A36%3B%20s_campaign%3Dafc-ran-com%3B; NVTC=248326808.0001.ydo03lcnf.1607302288.1607302288.1607303516.2; NID=729D4M6I2Q720M349D07367cf064911c61cb2575fe31ab74a86; NV_NVTCTIMESTAMP=1607303516
+sec-fetch-dest: document
+sec-fetch-mode: navigate
+sec-fetch-site: same-origin
+sec-fetch-user: ?1
+upgrade-insecure-requests: 1
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36
+
+Query Params:
+
+d: ps5
+nm_mc: AFC-RAN-COM
+cm_mmc: AFC-RAN-COM
+utm_medium: affiliates
+utm_source: afc-Future Publishing Ltd
+AFFID: 2294204
+AFFNAME: Future Publishing Ltd
+ACRID: 1
+ASUBID: trd-us-9280289584471940000
+ASID: https://www.techradar.com/news/where-to-buy-ps5-at-launch-heres-what-you-need-to-know
+ranMID: 44583
+ranEAID: 2294204
+ranSiteID: kXQk6.ivFEQ-7zbX1LvwgPWTWiB_l75A3w
+N: 101696840
+isdeptsrh: 1

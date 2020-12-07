@@ -1,0 +1,286 @@
+{
+    "MainItem": {
+        "FlagSelect": "",
+        "NTCItemMark": false,
+        "NewProductMark": false,
+        "Warranty": {
+            "WarrantyID": 82,
+            "WarrantyName": "Manufacturer Only Return Policy"
+        },
+        "PrtMark": "False",
+        "OEMMark": "false",
+        "HideMirMark": "0",
+        "RestrictedItemMark": "0",
+        "PriceHideMark": "0",
+        "ConvertCompleteFlag": null,
+        "ItemGroupID": 0,
+        "ParentItem": null,
+        "Subcategory": {
+            "SubcategoryId": 3762,
+            "PatchCount": 0,
+            "SubcategoryDescription": "PS5 Systems",
+            "RealSubCategoryId": 5005,
+            "RealSubCategoryDescription": "PS5 Systems"
+        },
+        "Feature": {
+            "IsAIT": false,
+            "IsRestricted": false,
+            "IsPremier": false,
+            "IsFirstFromAsia": false,
+            "IsInPMCC": true,
+            "IsHot": false,
+            "IsFreshDeal": false,
+            "HasManufacturerWarranty": false,
+            "ShipByNewegg": true,
+            "ShowOEMRetail": true,
+            "ShowOEM": false,
+            "USPSMark": false,
+            "ShopRunnerMark": null,
+            "HasIntelligence": false,
+            "IsNew": true,
+            "IsRefurbished": false,
+            "IsOpenBoxed": false,
+            "ProductType": 1,
+            "IsPreLaunch": false,
+            "ABSMinimum": false
+        },
+        "Seller": {
+            "SellerId": "",
+            "SellerName": null,
+            "SellerLogoURL": null,
+            "SellerRating": null,
+            "SellerReviewCount": null,
+            "SellerUrlKey": null,
+            "SellerModel": null
+        },
+        "Description": {
+            "Title": "PS5 Bundle - Includes PS5 Console and One Extra DualSense 5 Controller",
+            "IMDescription": "PS5 CONTROLLER BUNDLE 875873001825",
+            "BulletDescription": "PS5 Console; Harness the power of a custom CPU, GPU, and SSD with Integrated I/O that rewrite the rules of what a PlayStation console can do. Stunning Games - Marvel at incredible graphics and experience new PS5 features. Breathtaking Immersion - Discover a deeper gaming experience with support for haptic feedback, adaptive triggers, and 3D Audio technology.\nDualSense Controller; Signature comfort: Take control with an evolved, two-tone design that combines an iconic, intuitive layout with enhanced sticks and a reimagined light bar.\nFamiliar features: The DualSense wireless controller retains many DUALSHOCK 4 features, returning for a new generation of play.\nBuilt-in battery: Charge and play, now via USB Type-C (Cable not included).",
+            "LineDescription": "PS5 Bundle - Includes PS5 Console and One Extra DualSense 5 Controller",
+            "WebDescription": "PS5 Bundle - Includes PS5 Console and One Extra DualSense 5 Controller",
+            "LongDescription": null,
+            "UrlKeywords": null,
+            "ShortTitle": "PlayStation PS5 Console White / Black"
+        },
+        "PromotionInfo": {
+            "PromotionText": "Shop here for PS5 accessories, games and more",
+            "DisplayPromotionText": "OUT OF STOCK",
+            "PromotionLink": "https://www.newegg.com/store/EventSaleStore/ID-2052413",
+            "PromotionLinkOpenType": "0"
+        },
+        "PreorderType": 0,
+        "Type": 0,
+        "VolumeDiscount": {
+            "PromotionPrice1": 0,
+            "PromotionPrice2": 0,
+            "PromotionPrice3": 0,
+            "PromotionQty1": 0,
+            "PromotionQty2": 0,
+            "PromotionQty3": 0,
+            "PromotionShipping1": 0,
+            "PromotionShipping2": 0,
+            "PromotionShipping3": 0
+        },
+        "MapPrice": 0,
+        "MailinRebateCollection": null,
+        "Image": {
+            "HasScene7Image": false,
+            "ImageInternalCount": 2,
+            "WaterMarkFlag": "0",
+            "ImageType": 0,
+            "IsDFISImage": true,
+            "HasWaterMark": true,
+            "Normal": {
+                "ImageNameList": "68-110-292-01.jpg",
+                "ImageName": "68-110-292-01.jpg",
+                "DFIS360ImgFlag": null
+            },
+            "Scene7": {
+                "ImageName": null,
+                "ImageSetName": null,
+                "ImageSetImageList": null,
+                "SpinSetName": null,
+                "SpinSetImageList": null,
+                "ThumbnailSetName": null,
+                "ThumbnailSetImageList": null,
+                "VendorSetImageList": null,
+                "SpecialImageList": null
+            },
+            "ItemCellImageName": "68-110-292-01.jpg",
+            "ImagePathPattern": [
+                {
+                    "Size": -1,
+                    "PathPattern": "http://c1.neweggimages.com/NeweggImage/ProductImageCompressAll{Size}/{ImageName}"
+                },
+                {
+                    "Size": 35,
+                    "PathPattern": "http://c1.neweggimages.com/ProductImageCompressAll{Size}/{ImageName}"
+                },
+                {
+                    "Size": 60,
+                    "PathPattern": "http://c1.neweggimages.com/ProductImageCompressAll/{ImageName}"
+                },
+                {
+                    "Size": 100,
+                    "PathPattern": "http://c1.neweggimages.com/ProductImageCompressAll{Size}/{ImageName}"
+                },
+                {
+                    "Size": 180,
+                    "PathPattern": "http://c1.neweggimages.com/NeweggImage/ProductImageCompressAll200/{ImageName}"
+                },
+                {
+                    "Size": 1280,
+                    "PathPattern": "http://c1.neweggimages.com/ProductImageOriginal/{ImageName}"
+                }
+            ]
+        },
+        "NewImage": {
+            "ImageNameList": "68-110-292-01.jpg",
+            "ImageName": "68-110-292-01.jpg",
+            "DFIS360ImgFlag": null
+        },
+        "Subscription": {
+            "SubscriptionProgramID": 0,
+            "SubscriptionOnly": false,
+            "SubscriptionOrderFrequency": 0,
+            "SubscriptionPriceDiscountRate": 0,
+            "SubscriptionIsFreeShipping": "\u0000",
+            "SubscriptionContractTerm": 0,
+            "SubscriptionFreeTrial": 0,
+            "IsSubscription": false,
+            "IsRegularSubscription": false,
+            "IsSubscriptionOnly": false,
+            "IsCancelSubscription": false,
+            "IsCommitmentSubscription": false,
+            "IsSubscriptionFreeShipping": false
+        },
+        "Review": {
+            "Rating": 0,
+            "HumanRating": 0,
+            "CombineGroup": 0,
+            "ReviewSign": "",
+            "ReviewSignValue": null,
+            "ViewCount": 0,
+            "ItemAsDescribedRate": null,
+            "DeliverdOnTimeRate": null,
+            "SatisfiedServiiceRate": null,
+            "PositiveReviewRate": null
+        },
+        "CPUSteppingCode": "",
+        "ItemTime": {
+            "StartTime": "1970-01-01 00:00:00.000",
+            "ConvertTime": "1970-01-01 00:00:00.000",
+            "ReleaseTime": "1970-01-01 00:00:00.000"
+        },
+        "NewEggArrivingDate": null,
+        "PremierMark": null,
+        "ItemManufactory": {
+            "BrandId": 1541,
+            "Code": 0,
+            "Manufactory": "PlayStation",
+            "CountryOfMfr": "USA",
+            "ManfactoryLogo": 1,
+            "ManufactoryWeb": null,
+            "Hyperlink": null,
+            "CustomerServicePhone": null,
+            "IsM2C": false
+        },
+        "RankInfo": {
+            "ParentItem": null,
+            "ItemNumber": "68-110-292",
+            "OrderPendingFastestDays": 0,
+            "OrderPendingSlowestDays": 0,
+            "FastestDays": 0,
+            "SlowestDays": 0,
+            "EggPointRate": 0,
+            "ShippingMethodFastest": 3,
+            "ShippingMethodSlowest": 7,
+            "TierEggpointRate": 0,
+            "InnerEggPercentPoints": null
+        },
+        "ShipFromCountryName": "",
+        "ShipFromCountryCode": "",
+        "CanPreLaunch": false,
+        "CanPreorder": false,
+        "IsAssemblyServiceItem": false,
+        "IsOperatingSoftwareItem": false,
+        "NeedReflush": false,
+        "ShipOutFrom": 0,
+        "ShipOutTo": 0,
+        "ShipOutTimeUnit": null,
+        "Financing": {
+            "TranCode": null,
+            "StartDate": null,
+            "EndDate": null,
+            "Months": 0,
+            "PayTermType": null
+        },
+        "Download": {
+            "DownloadType": 0,
+            "BoxItem": null,
+            "SFItem": null
+        },
+        "IsAcademic": false,
+        "MappingId": null,
+        "IndividualImageName": null,
+        "ExpandedNote": null,
+        "SellerType": null,
+        "PromotionScheduleStatus": null,
+        "PromotionScheduleActiveDate": null,
+        "PromotionScheduleExpiration": null,
+        "PromotionScheduleExpirationLocal": null,
+        "SaleEndTimeText": null,
+        "HasStudentPrice": false,
+        "GMCflag": false,
+        "Model": "875873001825",
+        "ViewDescription": "<b>Processor Type:</b> AMD Zen 2-based CPU with 8 cores at 3.5GHz<br/><b>Installed RAM:</b> 16GB GDDR6<br/><b>Storage Capacity:</b> Custom 825GB SSD<br/><b>Optical Drive Type:</b> 4K UHD Blu-ray drive<br/><b>Graphic Processor:</b> Custom RDNA 2, 10.28 TFLOPs, 36 CUs at 2.23GHz<br/><b>Max. Resolution:</b> Up to 8K UHD<br/><b>Sound Output:</b> Custom Tempest Engine 3D Audio<br/><b>Controller:</b> Dualsense 5 Controller<br/>",
+        "Voting": {
+            "WinningCount": 0,
+            "WinningType": null
+        },
+        "OwnerCost": 569.98,
+        "NewProductTag": "0",
+        "HotSalesTag": "0",
+        "BigDiscountTag": "0",
+        "RushSaleTag": "0",
+        "ItemTagFlag": 0,
+        "ItemTagFlags": {},
+        "ScheduleEndTime": null,
+        "ScheduleStartTime": null,
+        "ScheduleTypeID": null,
+        "IsBuyAloneItem": false,
+        "IsVacationSeller": false,
+        "IsBlockSeller": false,
+        "NoItemBaseDataMark": false,
+        "NoItemPriceDataMark": false,
+        "AddToCartType": 5,
+        "TaxDutyType": null,
+        "ImportType": null,
+        "DefaultShipVia": "100",
+        "EggSaverMark": "0",
+        "OriginalUnitPrice": 569.98,
+        "OriginalInstantRebateAmount": 0,
+        "TaxPrice": null,
+        "Item": "68-110-292",
+        "UnitCost": 569.98,
+        "InstantRebateAmount": 0,
+        "ExchangeRate": 0,
+        "FinalPrice": 580.91,
+        "Instock": true,
+        "Stock": 0,
+        "StockForCombo": 0,
+        "ShippingCharge": 10.93,
+        "WebsiteBlockMark": false,
+        "IsActivated": true,
+        "Active": "1",
+        "CountryCode": "USA",
+        "CompanyCode": 1003,
+        "LimitQuantity": 1,
+        "ShowItem": true,
+        "PriceType": 0
+    },
+    "RecommendItem": null,
+    "BestSellerItemList": null,
+    "IsForceDeactiveItem": null
+}

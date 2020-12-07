@@ -1,0 +1,219 @@
+{
+    "subscribable": false,
+    "package_dimensions": {
+        "weight": "16.4",
+        "weight_unit_of_measure": "POUND",
+        "width": "18.75",
+        "depth": "23.75",
+        "height": "9.0",
+        "dimension_unit_of_measure": "INCH"
+    },
+    "title": "PlayStation 5 Console",
+    "tcin": "81114595",
+    "type": "Stand Alone",
+    "dpci": "207-43-0001",
+    "upc": "711719541028",
+    "url": "/p/playstation-5-console/-/A-81114595",
+    "description": "Play Has No Limits™<br /><br />PlayStation®5<br /><br />The PS5™ console unleashes new gaming possibilities that you never anticipated.<br /><br />Experience lightning fast loading with an ultra-high speed SSD, deeper immersion with support for haptic feedback, adaptive triggers, and 3D Audio, and an all-new generation of incredible PlayStation® games.<br /><br />Lightning Speed<br />Harness the power of a custom CPU, GPU, and SSD with Integrated I/O that rewrite the rules of what a PlayStation® console can do.<br /><br />Stunning Games<br />Marvel at incredible graphics and experience new PS5™ features.<br /><br />Breathtaking Immersion<br />Discover a deeper gaming experience with support for haptic feedback, adaptive triggers, and 3D Audio technology.",
+    "representative_child_part_number": "81114595",
+    "merch_sub_class": "43",
+    "merch_class": "VIDEO GAMES",
+    "merch_class_id": "207",
+    "brand": "PlayStation",
+    "product_brand": {
+        "facet_id": "vjq4e",
+        "brand": "PlayStation"
+    },
+    "images": [
+        {
+            "base_url": "https://target.scene7.com/is/image/Target/",
+            "primary": "GUEST_ae4e8352-bcea-4dd7-97ad-13be08ec32fb",
+            "alternate_urls": [
+                "GUEST_9c41d78f-1155-4069-ab97-e2cef0ade1df"
+            ],
+            "content_labels": [
+                {
+                    "image_url": "GUEST_9c41d78f-1155-4069-ab97-e2cef0ade1df"
+                },
+                {
+                    "image_url": "GUEST_ae4e8352-bcea-4dd7-97ad-13be08ec32fb"
+                }
+            ]
+        }
+    ],
+    "item_street_date": "2020-11-12",
+    "street_date": "2020-11-12T06:00:00.000Z",
+    "release_date": "1970-01-01T00:00:00.000Z",
+    "availability_status": "IN_STOCK",
+    "pick_up_in_store": false,
+    "ship_to_store": false,
+    "ship_from_store": false,
+    "rush_delivery": true,
+    "is_out_of_stock_in_all_store_locations": false,
+    "is_out_of_stock_in_all_online_locations": true,
+    "average_rating": 4.06,
+    "total_reviews": 249,
+    "top_reviews": [
+        {
+            "user_nickname": "Lee",
+            "title": "Worth the money if you can find it.",
+            "rating": 5,
+            "rating_range": 5,
+            "review_text": "After reading several reviews it seems necessary to write an actually review. If you own a ps4 the ps5 is quite in comparison.(don't believe the negative reviews.) I've ran the system for 72 hours straight it has no heating issues. Most of the games I've tested are beautiful graphically and run extremely smooth.(Demon Souls and Assassins Creed Valhalla are the games I've tested and I was not disappointed.) Most games load within 1/10 of the time of the ps4. You can link the ps4 and ps5 to play to some of the games. (Not all ps4 games play well on the system.) The control is a little big in comparison but if you played xbox it's about the same size, it is more responsive than the ps4 controller, it is heavier than ps4 and xbox. In all I'm extremely impressed with the ps5 so far normally I expect some issues with a newly launched system but so far everything has been extremely smooth."
+        },
+        {
+            "user_nickname": "Sheesh",
+            "title": "Dont fall for reaale",
+            "rating": 5,
+            "rating_range": 5,
+            "review_text": "Best console out, but don’t buy resales that costs you 700+ it’s not worth it man just let those people keep the 3 systems they bought"
+        },
+        {
+            "user_nickname": "ftarget",
+            "title": "Very unique design, nothing like it. LOVE IT!",
+            "rating": 5,
+            "rating_range": 5,
+            "review_text": "PS5 came in today, it hasn't looked this good since the PS2! Very unique design, nothing like it."
+        }
+    ],
+    "total_review_count": 89,
+    "ratings_only_review_count": 160,
+    "rating_distribution": [
+        {
+            "Count": 52,
+            "RatingValue": 1
+        },
+        {
+            "Count": 3,
+            "RatingValue": 2
+        },
+        {
+            "Count": 2,
+            "RatingValue": 3
+        },
+        {
+            "Count": 12,
+            "RatingValue": 4
+        },
+        {
+            "Count": 180,
+            "RatingValue": 5
+        }
+    ],
+    "overall_rating_range": 5,
+    "bullet_description": [
+        "<B>Dimensions (Overall):</B> 16.89 Inches (H) x 6.94 Inches (W) x 18.5 Inches (D)",
+        "<B>Weight:</B> 15.17 Pounds",
+        "<B>Model Compatibility:</B> PlayStation 5",
+        "<B>Includes:</B> Wireless Controller, USB Cable, HDMI Cable",
+        "<B>Electronics Features:</B> Functions as Dvd Player",
+        "<B>Connection Types:</B> USB",
+        "<B>Data storage capacity:</B> 825 GB",
+        "<B>Battery:</B> Lithium Ion, Required, Included",
+        "<B>Warranty:</B> 1 Year Limited Warranty. To obtain a copy of the manufacturer's or supplier's warranty for this item prior to purchasing the item, please call Target Guest Services at 1-800-591-3869"
+    ],
+    "soft_bullets": {
+        "title": "highlights",
+        "bullets": [
+            "Ultra-High Speed SSD: Maximize your play sessions with near instant load times for installed PS5™ games.",
+            "Integrated I/O: The custom integration of the PS5™ Digital Edition’s systems lets creators pull data from the SSD so quickly that they can design games in ways never before possible.",
+            "Ray Tracing: Immerse yourself in worlds with a new level of realism as rays of light are individually simulated, creating true-to-life shadows and reflections in supported PS5™ games.",
+            "4K-TV Gaming: Play your favorite PS5™ games on your stunning 4K TV.",
+            "Up to 120fps with 120Hz output",
+            "Enjoy smooth and fluid high frame rate gameplay at up to 120fps for compatible games, with support for 120Hz output on 4K displays.",
+            "HDR Technology: With an HDR TV, supported PS5™ games display an unbelievably vibrant and lifelike range of colors.",
+            "8K Output: PS5™ consoles support 8K Output, so you can play games on your 4320p resolution display.",
+            "Tempest 3D AudioTech: Immerse yourself in soundscapes where it feels as if the sound comes from every direction. Through your headphones or TV speakers your surroundings truly come alive with Tempest 3D AudioTech in supported games.",
+            "Haptic Feedback: Experience haptic feedback via the DualSense wireless controller in select PS5 titles and feel the effects and impact of your in-game actions through dynamic sensory feedback.",
+            "Adaptive Triggers: Get to grips with immersive adaptive triggers, featuring dynamic resistance levels which simulate the physical impact of in-game activities in select PS5 games."
+        ]
+    },
+    "eligibility_rules": {
+        "inventory_notification_to_guest_excluded": {
+            "is_active": true
+        },
+        "rush": {
+            "is_active": true
+        }
+    },
+    "loyalty_availability_status": "IN_STOCK",
+    "loyalty_purchase_start_date_time": "1970-01-01T00:00:00.000Z",
+    "wellness_merchandise_attributes": [
+        {
+            "parent_id": "127450",
+            "parent_name": "Internal Use Only: Shop By",
+            "value_id": "1470543875",
+            "value_name": "Top Tech",
+            "badge_url": "https://target.scene7.com/is/image/Target/GUEST_642619d6-7b99-4204-8584-74ddcdaf0d45",
+            "wellness_description": "Top Tech is a curated list of tech for this holiday season. Featuring a wide variety of classic, new, and exclusive tech across a variety of categories for all ages and budgets. Top Tech gives you everything you need to take on holiday gift-giving."
+        },
+        {
+            "parent_id": "127450",
+            "parent_name": "Internal Use Only: Shop By",
+            "value_id": "367621",
+            "value_name": "Bullseye's Top Toys",
+            "badge_url": "https://target.scene7.com/is/image/Target/GUEST_c51fc3bf-78b3-4806-ab54-4beaecc61078",
+            "wellness_description": "Bullseye's Top Toys is a curated list of toys for this holiday season. Featuring a variety of classic, new, and exclusive toys across a variety of categories for all ages and budgets. Bullseye’s Top Toys gives you everything you need to take on holiday gift-giving."
+        }
+    ],
+    "price": {
+        "tcin": "81114595",
+        "formatted_current_price": "$499.99",
+        "formatted_current_price_type": "reg",
+        "is_current_price_range": false,
+        "current_retail": 499.99
+    },
+    "promotions": [
+        {
+            "promotion_id": "306713341",
+            "applied_location_id": 3991,
+            "start_date": "2020-11-23T20:23:32Z",
+            "end_date": "2021-01-03T07:59:59Z",
+            "visibility": 780,
+            "time_based": false,
+            "channel": "online_only",
+            "plp_message": "Only available with Drive Up or Order Pickup services",
+            "pdp_message": "Only available with Drive Up or Order Pickup services",
+            "subscription_type": "ALL",
+            "legal_disclaimer_text": "Only available with Drive Up or Order Pickup services. Quantities are limited.",
+            "site_wide": false,
+            "global_subscription_flag": false,
+            "threshold_type": "none",
+            "threshold_value": 1,
+            "promotion_class": "No Discount"
+        }
+    ],
+    "esp_item": {
+        "tcin": "51552468",
+        "esp_group_id": "Allstate - Gaming",
+        "maximum_qualifying_price": 499.99,
+        "minimum_qualifying_price": 450.0,
+        "product_description": {
+            "title": "Allstate 2 Year Video Games Protection Plan",
+            "bullet_descriptions": [
+                "<B>Benefits:</B> No Deductible, No Additional Cost, 24/7 Support, Free 2-Way Shipping",
+                "<B>Support:</B> Online, Phone",
+                "<B>Includes:</B> Mechanical Defects, Normal Wear and Tear Coverage",
+                "<B>Minimum Qualifying Item Price:</B> 450",
+                "<B>Maximum Qualifying Item Price:</B> 499.99",
+                "<B>Service plan type:</B> Allstate - Gaming",
+                "<B>Number of years protected:</B> 2 years"
+            ]
+        },
+        "enrichment": {
+            "images": {
+                "primary_image_url": "https://target.scene7.com/is/image/Target/GUEST_d4f8dbd5-d433-4973-a22e-fbfd21d2db15"
+            }
+        },
+        "price": {
+            "tcin": "51552468",
+            "formatted_current_price": "$63.00",
+            "formatted_current_price_type": "reg",
+            "is_current_price_range": false,
+            "current_retail": 63.0
+        }
+    },
+    "packaging": {
+        "is_retail_ticketed": false
+    }
+}
