@@ -27,19 +27,21 @@ namespace PlayWithMe.Func
             ILogger log,
             ExecutionContext context)
         {
+            string response = string.Empty;
             try
             {
                 var mode = ((string)req.Query["mode"]) ?? string.Empty;
 
-                JObject ps5;
                 if (mode.Contains("-l"))
                 {
-                    ps5 = JsonConvert.DeserializeObject<JObject>(httpHelper.GetStringResponse($"https://www.newegg.com/product/api/ProductRealtime?ItemNumber=68-110-292&RecommendItem=&BestSellerItemList=&IsVATPrice=true"));
+                    response = httpHelper.GetStringResponse($"https://www.newegg.com/product/api/ProductRealtime?ItemNumber=68-110-292&RecommendItem=&BestSellerItemList=&IsVATPrice=true");
                 }
                 else
                 {
-                    ps5 = JsonConvert.DeserializeObject<JObject>(File.ReadAllText(Path.Combine(context.FunctionAppDirectory, "requests/newegg/newegg-ps5-response.json")));
+                    response = File.ReadAllText(Path.Combine(context.FunctionAppDirectory, "requests/newegg/newegg-ps5-response.json"));
                 }
+
+                var ps5 = JsonConvert.DeserializeObject<JObject>(response);
                 
                 var item = new SearchItem
                 {
@@ -54,6 +56,7 @@ namespace PlayWithMe.Func
             } 
             catch (Exception ex)
             {
+                var detailEx = new Exception($"Newegg Server Response: {response}", ex);
                 return new ExceptionResult(ex, true);
             }            
         }
