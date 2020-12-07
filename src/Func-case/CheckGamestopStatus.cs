@@ -10,12 +10,12 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Logging;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
-using play_with_me.common.Helpers;
-using play_with_me.common.Models;
-using play_with_me.common.Services;
+using PlayWithMe.Common.Helpers;
+using PlayWithMe.Common.Models;
+using PlayWithMe.Common.Services;
 using System.Web.Http;
 
-namespace func
+namespace PlayWithMe.Func
 {
     public static class CheckGamestopStatus
     {

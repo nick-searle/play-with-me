@@ -2,9 +2,9 @@ using System.Collections.Generic;
 using System.Net;
 using System.Net.Mail;
 using System.Text;
-using play_with_me.common.Models;
+using PlayWithMe.Common.Models;
 
-namespace play_with_me.common.Services
+namespace PlayWithMe.Common.Services
 {
     public class EmailService
     {

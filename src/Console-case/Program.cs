@@ -3,14 +3,14 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Threading;
-using console.Services;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
-using play_with_me.common.Helpers;
-using play_with_me.common.Models;
-using play_with_me.common.Services;
+using PlayWithMe.Common.Helpers;
+using PlayWithMe.Common.Models;
+using PlayWithMe.Common.Services;
+using PlayWithMe.ConsoleApp.Services;
 
-namespace play_with_me
+namespace PlayWithMe.ConsoleApp
 {
     class Program
     {

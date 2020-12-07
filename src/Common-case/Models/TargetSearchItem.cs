@@ -1,4 +1,4 @@
-namespace play_with_me.common.Models
+namespace PlayWithMe.Common.Models
 {
     public class TargetSearchItem : SearchItem
     {

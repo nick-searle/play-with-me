@@ -5,7 +5,7 @@ using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Text;
 
-namespace play_with_me.common.Helpers
+namespace PlayWithMe.Common.Helpers
 {
     public class HttpHelper
     {

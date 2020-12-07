@@ -1,10 +1,4 @@
-using System;
-using System.Collections.Generic;
-using Newtonsoft.Json;
-using play_with_me.common.Models;
-using play_with_me.common.Helpers;
-
-namespace console.Services
+namespace PlayWithMe.ConsoleApp.Services
 {
     public class NeweggService : BaseStoreService
     {

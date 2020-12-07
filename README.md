@@ -124,6 +124,7 @@ if you log in from a bunch of different systems, you may have accidentally left 
 
 ### Future
 - Move codes to Key Vault
+- Make things async
 - Add flexible search to work for anything not just PS5
 - Add multi-threading to the console
 

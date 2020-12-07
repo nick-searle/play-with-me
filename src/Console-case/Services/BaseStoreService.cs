@@ -1,11 +1,11 @@
 using System;
 using System.Collections.Generic;
-using common.Contracts;
+using PlayWithMe.Common.Contracts;
 using Newtonsoft.Json;
-using play_with_me.common.Helpers;
-using play_with_me.common.Models;
+using PlayWithMe.Common.Helpers;
+using PlayWithMe.Common.Models;
 
-namespace console.Services
+namespace PlayWithMe.ConsoleApp.Services
 {
     public class BaseStoreService : IStoreService
     {

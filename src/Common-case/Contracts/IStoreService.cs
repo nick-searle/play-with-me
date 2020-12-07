@@ -1,7 +1,7 @@
 using System.Collections.Generic;
-using play_with_me.common.Models;
+using PlayWithMe.Common.Models;
 
-namespace common.Contracts
+namespace PlayWithMe.Common.Contracts
 {
     public interface IStoreService
     {
