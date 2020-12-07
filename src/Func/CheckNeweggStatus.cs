@@ -57,7 +57,7 @@ namespace PlayWithMe.Func
             catch (Exception ex)
             {
                 var detailEx = new Exception($"Newegg Server Response: {response}", ex);
-                return new ExceptionResult(ex, true);
+                return new ExceptionResult(detailEx, true);
             }            
         }
     }
