@@ -2,7 +2,10 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Reflection;
 using System.Threading;
+using log4net;
+using log4net.Config;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using PlayWithMe.Common.Helpers;
@@ -15,11 +18,15 @@ namespace PlayWithMe.ConsoleApp
     class Program
     {
         // -l = live, -e = email, -t = test-features, -d = local-dev
+        private static readonly ILog log = LogManager.GetLogger(MethodBase.GetCurrentMethod().DeclaringType);
         private static string mode = "";
         private static readonly HttpHelper httpHelper = new HttpHelper();
 
         static void Main(string[] args)
         {
+            var logRepository = LogManager.GetRepository(Assembly.GetEntryAssembly());
+            XmlConfigurator.Configure(logRepository, new FileInfo("log4net.config"));
+ 
             if (args.Any())
             {
                 mode = string.Join(' ', args.Select(a => a.ToLower()));
@@ -31,8 +38,8 @@ namespace PlayWithMe.ConsoleApp
                 return;
             }
 
-            Console.WriteLine($"Mode: '{mode}'");
-            Console.WriteLine();
+            log.Info($"Mode: '{mode}'");
+            log.Info("");
 
             var targetService = new TargetService();
             var neweggService = new NeweggService();
@@ -41,8 +48,8 @@ namespace PlayWithMe.ConsoleApp
             var random = new Random(1);            
             do
             {
-                Console.WriteLine($"Running at {DateTime.Now}");
-                Console.WriteLine();
+                log.Info($"Running at {DateTime.Now}");
+                log.Info("");
 
                 var items = targetService.GetItemStatuses(mode);
                 items.AddRange(neweggService.GetItemStatuses(mode));
@@ -57,13 +64,13 @@ namespace PlayWithMe.ConsoleApp
                         var emailService = new EmailService();
                         emailService.EmailAvailability(items);
                     }
-                    Console.WriteLine("AVAILABLE!!!");
+                    log.Info("AVAILABLE!!!");
                     return;
                 }
 
                 var wait = 10000 + random.Next(8000);
-                Console.WriteLine($"No stock waiting {wait}");
-                Console.WriteLine();
+                log.Info($"No stock waiting {wait}");
+                log.Info("");
 
                 Thread.Sleep(wait);
             } while(true);
