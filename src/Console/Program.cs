@@ -38,7 +38,7 @@ namespace PlayWithMe.ConsoleApp
                 return;
             }
 
-            log.Info($"Mode: '{mode}'");
+            log.Info($"Mode test: '{mode}'");
             log.Info("");
 
             var targetService = new TargetService();

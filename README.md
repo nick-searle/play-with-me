@@ -52,12 +52,12 @@ personal: ff457966e64d5e877fdbad070f276d18ecec4a01
 https://docs.microsoft.com/en-us/dotnet/core/deploying/deploy-with-cli
 
 ### Publish to folder as self contained
-dotnet publish -c Release -r 'osx.10.14-x64' --self-contained true
+dotnet publish -c Release -r 'osx-x64' --self-contained true
 
 ### Copy to local apps
-mkdir ~/workspace/console-apps/play-with-me/macos  
-rm -rf ~/workspace/console-apps/play-with-me/macos  
-cp -R ~/workspace/play-with-me/src/Console/bin/Release/net5.0/osx.10.14-x64/publish/ ~/workspace/console-apps/play-with-me/macos  
+mkdir ~/workspace/console-apps/play-with-me  
+rm -rf ~/workspace/console-apps/play-with-me  
+cp -R ~/workspace/play-with-me/src/Console/bin/Release/net5.0/osx-x64/publish/ ~/workspace/console-apps/play-with-me  
 
 # Publish console Linux
 
@@ -66,7 +66,7 @@ dotnet publish -c Release -r 'linux-x64' --self-contained true
 
 # Run published 
 
-./play-with-me -l -e
+./PlayWithMe.ConsoleApp -l -e
 
 # Connect to VM
 
@@ -78,7 +78,7 @@ scp -r -i mainkey.pem ~/workspace/play-with-me/src/Console/bin/Release/net5.0/li
 ### Run on VM
 screen
 
-./play-with-me -l -e
+./PlayWithMe.ConsoleApp -l -e
 
 ### Reconnect
 
