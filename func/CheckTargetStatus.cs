@@ -31,7 +31,9 @@ namespace func
             {
                 var mode = ((string)req.Query["mode"]) ?? string.Empty;
 
-                var key = (string)req.Query["key"];
+                var rawResponse = httpHelper.GetResponse("https://www.target.com");
+                var responseHeaders = rawResponse.Headers;
+                var key = httpHelper.GetCookie(responseHeaders, "visitorId");
 
                 if (key == null)
                 {
@@ -58,7 +60,7 @@ namespace func
                         Tcin = item["tcin"]?.ToString(),
                         Dpci = item["dpci"]?.ToString(),
                         Upc = item["upc"]?.ToString(),
-                        Url = item["url"]?.ToString(),
+                        Url = "https://www.target.com" + (item["url"]?.ToString() ?? ""),
                         Status = item["availability_status"]?.ToString()
                     };
                     

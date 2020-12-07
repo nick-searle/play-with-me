@@ -1,0 +1,496 @@
+{
+    "action": "Product-Variation",
+    "queryString": "dwvar_11108140_condition=New&pid=11108140&quantity=1&redesignFlag=true&rt=productDetailsRedesign",
+    "locale": "default",
+    "product": {
+      "uuid": "412f30c4f22cd6eba153d3fb5a",
+      "id": "225169",
+      "productName": "PlayStation 5",
+      "productType": "variant",
+      "activeData": {},
+      "price": {
+        "sales": {
+          "value": 499.99,
+          "currency": "USD",
+          "formatted": "$499.99",
+          "decimalPrice": "499.99"
+        },
+        "list": null,
+        "html": "\n\n\n\n\n\n\n\n\t\n        <div class=\"price\">\n            \n            \n            \n            \n                \n                \n                \n                    <div class=\"default-pricing\">\n                        <span class=\"price\">\n    \n        \n\t\t\n\t\t\n\t\t\n\t\t\t\n\t\t<span class=\"badge-container-redesign\">\n\t\t\t\n\n\t\t\t\n\t\t</span>\n\t\t<span class=\"selling-price-redesign\">\n\t\t\t<span class=\"actual-price\">\n\t\t\t\t\n    $499.99\n\n\t\t\t</span>\n\t\t\t\n\n\t\t</span>\n    \n\t\n</span>\n\n\n                    </div>\n                \n            \n        </div>\n    \n\n"
+      },
+      "proDayPoints": 10000,
+      "images": {
+        "large": [
+          {
+            "alt": "PlayStation 5",
+            "url": "https://media.gamestop.com/i/gamestop/11108140/PlayStation-5?$pdp$",
+            "title": "PlayStation 5"
+          }
+        ],
+        "small": [
+          {
+            "alt": "PlayStation 5",
+            "url": "https://media.gamestop.com/i/gamestop/11108140/PlayStation-5?$thumb$",
+            "title": "PlayStation 5"
+          }
+        ],
+        "set": [
+          {
+            "alt": "PlayStation 5",
+            "url": "https://media.gamestop.com/i/gamestop/11108140/PlayStation-5",
+            "title": "PlayStation 5"
+          }
+        ],
+        "screen": [],
+        "zoom": [
+          {
+            "alt": "PlayStation 5",
+            "url": "https://media.gamestop.com/i/gamestop/11108140/PlayStation-5?$zoom$",
+            "title": "PlayStation 5"
+          }
+        ]
+      },
+      "selectedQuantity": 1,
+      "minOrderQuantity": 1,
+      "maxOrderQuantity": 9,
+      "variationAttributes": [
+        {
+          "attributeId": "condition",
+          "displayName": "Condition",
+          "id": "condition",
+          "swatchable": false,
+          "values": [
+            {
+              "id": "New",
+              "description": null,
+              "displayValue": "New",
+              "value": "New",
+              "selected": true,
+              "selectable": true,
+              "orderable": false,
+              "url": "https://www.gamestop.com/on/demandware.store/Sites-gamestop-us-Site/default/Product-Variation?dwvar_11108140_condition=&pid=11108140&quantity=1",
+              "attributeId": "condition",
+              "price": {
+                "sales": {
+                  "value": 499.99,
+                  "currency": "USD",
+                  "formatted": "$499.99",
+                  "decimalPrice": "499.99"
+                },
+                "list": null,
+                "html": "\n\n\n\n\n\n\n\n\t\n        <div class=\"price\">\n            \n            \n            \n            \n                \n                \n                \n                    <div class=\"default-pricing\">\n                        <span class=\"price\">\n    \n        \n\t\t\n\t\t\n\t\t\n\t\t\t\n\t\t<span class=\"badge-container-redesign\">\n\t\t\t\n\n\t\t\t\n\t\t</span>\n\t\t<span class=\"selling-price-redesign\">\n\t\t\t<span class=\"actual-price\">\n\t\t\t\t\n    $499.99\n\n\t\t\t</span>\n\t\t\t\n\n\t\t</span>\n    \n\t\n</span>\n\n\n                    </div>\n                \n            \n        </div>\n    \n\n"
+              },
+              "seePriceInCart": null,
+              "selectedVariantId": "225169"
+            }
+          ],
+          "resetUrl": "https://www.gamestop.com/on/demandware.store/Sites-gamestop-us-Site/default/Product-Variation?dwvar_11108140_condition=&pid=11108140&quantity=1",
+          "isBoxSelection": true
+        }
+      ],
+      "promotions": [
+        {
+          "calloutMsg": "Everyday Free Shipping $35+",
+          "details": "Get free Everyday Free Shipping on orders $35+!\r\n\r\nSome exclusions apply. Prices subject to change.\r\n\r\nGameStop, Inc. reserves the right to cancel, terminate, modify or suspend the offer for any reason without notice.",
+          "enabled": true,
+          "id": "free-everyday-shipping-35",
+          "name": "Everyday Free Shipping $35+",
+          "promotionClass": "SHIPPING",
+          "rank": null,
+          "promotionHeading": "",
+          "shippingPromotionType": "nonsdd"
+        },
+        {
+          "calloutMsg": "",
+          "details": "Get $5 off Premium Shipping on orders $35+!\r\n\r\nSome exclusions apply. Prices subject to change.\r\n\r\nGameStop, Inc. reserves the right to cancel, terminate, modify or suspend the offer for any reason without notice.",
+          "enabled": true,
+          "id": "5d-premium-shipping-35",
+          "name": "$5 off Premium Shipping Orders $35+",
+          "promotionClass": "SHIPPING",
+          "rank": null,
+          "promotionHeading": "",
+          "shippingPromotionType": ""
+        },
+        {
+          "calloutMsg": "",
+          "details": "Get $3 off Express Shipping on orders $35+!\r\n\r\nSome exclusions apply. Prices subject to change.\r\n\r\nGameStop, Inc. reserves the right to cancel, terminate, modify or suspend the offer for any reason without notice.",
+          "enabled": true,
+          "id": "3d-express-shipping-35",
+          "name": "$3 off Express Shipping Orders $35+",
+          "promotionClass": "SHIPPING",
+          "rank": null,
+          "promotionHeading": "",
+          "shippingPromotionType": ""
+        },
+        {
+          "calloutMsg": "",
+          "details": "FREE Same Day Delivery on orders $74.99 and more",
+          "enabled": true,
+          "id": "delivery-fee-discount-sdd",
+          "name": "Delivery Fee Discount SDD",
+          "promotionClass": "SHIPPING",
+          "rank": null,
+          "promotionHeading": "",
+          "shippingPromotionType": ""
+        }
+      ],
+      "attributes": [
+        {
+          "ID": "CompareAttributes",
+          "name": "Compare Attributes",
+          "attributes": [
+            {
+              "label": "Short Description",
+              "value": [
+                {}
+              ]
+            }
+          ]
+        }
+      ],
+      "availability": {
+        "messages": [
+          "This item is currently not available online"
+        ],
+        "limitedstockmessage": [],
+        "estimatedDateRangeMessage": [],
+        "additionalmessages": [],
+        "preOrdermessage": [],
+        "bopisOrderByDate": "",
+        "bopisOrderAfterDate": "",
+        "backOrdermessage": [],
+        "buttonText": "Unavailable",
+        "buttonTextStore": "Pick Up Today",
+        "className": "availability-not-available",
+        "bopisButtonText": "Add to Cart",
+        "isOrderPlacedBeforeCutoff": false,
+        "inStockDate": null
+      },
+      "available": true,
+      "options": [
+        {
+          "id": "PRP",
+          "name": "Product Replacement Plan",
+          "description": "<p>Obligor: All obligations under this Plan are the responsibility of GameStop, Inc., except in Florida, Washington, and Wisconsin where the obligations under this contract are the responsibility of GameStop Service Company, LLC. Each of the applicable Obligors have an address of 625 Westport Parkway, Grapevine, TX 76051 and phone number of (800) 883-8895. The obligations of the provider of this Plan are backed by the full faith and credit of the applicable Obligor. Participation by Customer is subject to the approval of Obligor.\r\n<br>\r\nDefinitions:\r\n<br>\r\n<br>A. Failure: The mechanical or operational failure of hardware or software caused by defects in materials and/or workmanship, and, with respect to software, the mechanical or operational failure caused by normal wear and tear.\r\n<br>B. GPG: Game Play Guarantee coverage for software and the sales receipt documenting the purchase of the same, which receipt is incorporated herein by reference.\r\n<br>C. PRP: Product Replacement Plan coverage for hardware and the sales receipt documenting the purchase of the same, which receipt is incorporated herein by reference.\r\n<br>D. Plan: The PRP and/or GPG purchased by You.\r\n<br>E. Product: The hardware and/or software covered by this Plan and purchased contemporaneously with this Plan.\r\n<br>F. You, Your, Customer: The individual who purchased this Plan and the Product.\r\n<br>G. We, Us, Our: the applicable Obligor.\r\nCoverage: \r\n\r\n<br>A. PRP Coverage: This PRP will provide for repair or one-time replacement, at Our sole discretion, of the hardware covered by this PRP in the event of a Failure not covered by insurance or any other warranty or service contract.\r\n<br>B. GPG Coverage: This GPG will provide for one-time replacement of the software covered by this GPG in the event of a Failure not covered by insurance or any other warranty or service contract.\r\n<br>Term: The term of this PRP, if applicable, shall begin on the date of purchase of the covered Product, as indicated on Your sales receipt, and will end on either the twelve (12) month anniversary or (24) month anniversary of such date, as indicated on Your sales receipt for a new Product. The term of the GPG, if applicable, begins on the date of purchase of the covered Product, as indicated on Your sales receipt, and will end on the twelve (12) month anniversary of such date.\r\n<br>Limitations of Coverage. This Agreement Does Not Cover:\r\n\r\n<br>A. Any product owned or operated outside the United States and its Territories.\r\n<br>B. Repairs and/or service required as a result of any alteration of the Product, repairs not made by Us or the use of supplies not recommended or recognized as industry equivalents.\r\n<br>C. Relocation, installation or reinstallation of any Product.\r\n<br>D. Damage (including rust or corrosion) due to causes beyond Our control including, but not limited to, misuse, abuse, riot, vandalism, theft, fire, flood, wind, lightning, freezing, power failure, power reduction, inadequate power supply, unusual atmospheric conditions, telephone failure, or Acts of God.\r\n<br>E. Expendable item(s), including, but not limited to, batteries and other operating supplies and consumable item(s).\r\n<br>F. Repairs and/or service required as a result of use of non-compatible software or cartridges.\r\n<br>G. Telephone or other lines connecting to the Product.\r\n<br>H. Purely cosmetic scratches, peeling, dents or any other similar damage.\r\n<br>I. Any preventative maintenance.\r\n<br>J. Any product used for rental or commercial purposes.\r\n<br>K. Any failure covered by insurance or any other warranty or service contract.\r\n<br>L. Any pre-existing conditions that occur or arise prior to the effective date of this Plan.\r\n<br><br>Disclaimers and Limitations of Liability: Our sole responsibility under this Plan shall be limited to providing service for repair or replacement of the Product, at Our election. THE TOTAL LIABILITY UNDER THIS PLAN IS THE PURCHASE PRICE YOU PAID FOR THE PRODUCT; IN THE EVENT",
+          "htmlName": "dwopt_225169_PRP",
+          "values": [
+            {
+              "id": "NULL",
+              "displayValue": "No replacement plan",
+              "price": "$0.00",
+              "monthlyprice": "0.00",
+              "priceValue": {},
+              "url": "https://www.gamestop.com/on/demandware.store/Sites-gamestop-us-Site/default/Product-Variation?dwopt_225169_PRP=NULL&dwvar_11108140_condition=New&pid=225169&quantity=1"
+            },
+            {
+              "id": "590043",
+              "displayValue": "1-Year Plan",
+              "price": "$49.99",
+              "monthlyprice": "4.17",
+              "priceValue": {},
+              "url": "https://www.gamestop.com/on/demandware.store/Sites-gamestop-us-Site/default/Product-Variation?dwopt_225169_PRP=590043&dwvar_11108140_condition=New&pid=225169&quantity=1"
+            },
+            {
+              "id": "590006",
+              "displayValue": "2-year Plan",
+              "price": "$79.99",
+              "monthlyprice": "3.33",
+              "priceValue": {},
+              "url": "https://www.gamestop.com/on/demandware.store/Sites-gamestop-us-Site/default/Product-Variation?dwopt_225169_PRP=590006&dwvar_11108140_condition=New&pid=225169&quantity=1"
+            }
+          ],
+          "selectedValueId": "NULL",
+          "selectType": "select",
+          "contentAsset": {}
+        }
+      ],
+      "quantities": [
+        {
+          "value": "1",
+          "selected": true,
+          "url": "/on/demandware.store/Sites-gamestop-us-Site/default/Product-Variation?dwvar_11108140_condition=New&pid=225169&quantity=1"
+        },
+        {
+          "value": "2",
+          "selected": false,
+          "url": "/on/demandware.store/Sites-gamestop-us-Site/default/Product-Variation?dwvar_11108140_condition=New&pid=225169&quantity=2"
+        },
+        {
+          "value": "3",
+          "selected": false,
+          "url": "/on/demandware.store/Sites-gamestop-us-Site/default/Product-Variation?dwvar_11108140_condition=New&pid=225169&quantity=3"
+        },
+        {
+          "value": "4",
+          "selected": false,
+          "url": "/on/demandware.store/Sites-gamestop-us-Site/default/Product-Variation?dwvar_11108140_condition=New&pid=225169&quantity=4"
+        },
+        {
+          "value": "5",
+          "selected": false,
+          "url": "/on/demandware.store/Sites-gamestop-us-Site/default/Product-Variation?dwvar_11108140_condition=New&pid=225169&quantity=5"
+        },
+        {
+          "value": "6",
+          "selected": false,
+          "url": "/on/demandware.store/Sites-gamestop-us-Site/default/Product-Variation?dwvar_11108140_condition=New&pid=225169&quantity=6"
+        },
+        {
+          "value": "7",
+          "selected": false,
+          "url": "/on/demandware.store/Sites-gamestop-us-Site/default/Product-Variation?dwvar_11108140_condition=New&pid=225169&quantity=7"
+        },
+        {
+          "value": "8",
+          "selected": false,
+          "url": "/on/demandware.store/Sites-gamestop-us-Site/default/Product-Variation?dwvar_11108140_condition=New&pid=225169&quantity=8"
+        },
+        {
+          "value": "9",
+          "selected": false,
+          "url": "/on/demandware.store/Sites-gamestop-us-Site/default/Product-Variation?dwvar_11108140_condition=New&pid=225169&quantity=9"
+        }
+      ],
+      "sizeChartId": null,
+      "selectedProductUrl": "/video-games/playstation-5/consoles/products/playstation-5/11108140.html?dwopt_225169_PRP=NULL&dwvar_11108140_condition=New&pid=225169&quantity=1",
+      "readyToOrder": true,
+      "online": true,
+      "template": null,
+      "productCondition": "New",
+      "productEdition": "White/Black",
+      "productConsoleType": null,
+      "productMemory": null,
+      "productCarrier": null,
+      "productPlatform": "PlayStation 5",
+      "badges": [],
+      "hasXXABadge": null,
+      "tradeBasePrice": null,
+      "isTradeable": true,
+      "publisher": "Sony",
+      "onlineOnlyPrice": false,
+      "isDigitalProduct": false,
+      "isDigitalCurrency": false,
+      "esrbRating": {},
+      "esrbDescriptors": [],
+      "ageRestricted": false,
+      "productFeatures": "",
+      "subtitle": "",
+      "heroBanner": "",
+      "additionalPriceBoxMessages": [],
+      "customMessages": [
+        "Due to Lithium Battery Restrictions, some shipping options are unavailable.",
+        "Ships to U.S. Addresses Only",
+        "Does not ship to AK, HI, PR"
+      ],
+      "releaseDate": null,
+      "preOrderMessage": null,
+      "preloadDate": null,
+      "preorder": false,
+      "preowned": false,
+      "gameInformerReview": "",
+      "importantInfo": "",
+      "amplienceAsset01": null,
+      "amplienceAsset02": null,
+      "amplienceAsset03": null,
+      "amplienceAsset04": null,
+      "amplienceAsset05": null,
+      "amplienceAsset06": null,
+      "seePriceInCart": false,
+      "developer": null,
+      "webGenre": null,
+      "operatingSystem": null,
+      "bvAverageRating": null,
+      "bvReviewCount": null,
+      "xboxAllaccesslegalText": null,
+      "isDeviceXBOXAllAccess": false,
+      "isAvailableForXAA": false,
+      "xboxAllAccessValuePropMessage": null,
+      "xboxAllAccessMonthlyPriceValue": null,
+      "XAALearnMore": null,
+      "XAAOfferDetails": null,
+      "XAAWhatsIncluded": null,
+      "brand": "Sony",
+      "streetDateGuarantee": {
+        "showStreetDateGuarantee": false,
+        "html": null
+      },
+      "isDeliveryAllowed": true,
+      "supressFlexPay": false,
+      "backorder": false,
+      "hasVideo": false,
+      "isBundle": false,
+      "bundledProductIds": [],
+      "isProductSDDEligible": false,
+      "isSFMCProductExclusion": false,
+      "productSignatureRequired": true,
+      "brightcovePlaylistId": "US_11108140",
+      "isPURProduct": false,
+      "membershipType": "player",
+      "tileCtaText": null,
+      "tileCtaActionUrl": null,
+      "priceCalloutMessage": null,
+      "allowBOPS": false,
+      "onlyBOPS": false,
+      "isBOPSPreOrder": false,
+      "allowHOPS": false,
+      "onlyHOPS": false,
+      "isISPU": false,
+      "onlyISPU": false,
+      "allowStoreLookup": false,
+      "enablePickupPDP": false,
+      "enablePickupTile": false,
+      "enablePickupCheckout": false,
+      "enablePickupBOPS": false,
+      "showPdpStoreLocatorIcon": false,
+      "preferredStoreInventoryUrl": "/on/demandware.store/Sites-gamestop-us-Site/default/Stores-ProductDetailStoreAvailability?pid=11108140&redesignFlag=true",
+      "isVisible": true,
+      "isRedesign": true,
+      "category": "Consoles",
+      "categoryID": "ps5-consoles",
+      "applicationCategory": "PlayStation 5",
+      "masterProductID": "11108140",
+      "defaultVariantId": "225169",
+      "defaultVariantAvailability": {
+        "readyToOrder": null,
+        "available": null,
+        "preorder": null,
+        "isDigitalProduct": false
+      },
+      "selectedVariantId": null,
+      "selectedVariationAttributes": [
+        {
+          "id": "New",
+          "description": null,
+          "displayValue": "New",
+          "value": "New",
+          "selected": true,
+          "selectable": true,
+          "orderable": false,
+          "url": "https://www.gamestop.com/on/demandware.store/Sites-gamestop-us-Site/default/Product-Variation?dwvar_11108140_condition=&pid=11108140&quantity=1",
+          "attributeId": "condition",
+          "price": {
+            "sales": {
+              "value": 499.99,
+              "currency": "USD",
+              "formatted": "$499.99",
+              "decimalPrice": "499.99"
+            },
+            "list": null,
+            "html": "\n\n\n\n\n\n\n\n\t\n        <div class=\"price\">\n            \n            \n            \n            \n                \n                \n                \n                    <div class=\"default-pricing\">\n                        <span class=\"price\">\n    \n        \n\t\t\n\t\t\n\t\t\n\t\t\t\n\t\t<span class=\"badge-container-redesign\">\n\t\t\t\n\n\t\t\t\n\t\t</span>\n\t\t<span class=\"selling-price-redesign\">\n\t\t\t<span class=\"actual-price\">\n\t\t\t\t\n    $499.99\n\n\t\t\t</span>\n\t\t\t\n\n\t\t</span>\n    \n\t\n</span>\n\n\n                    </div>\n                \n            \n        </div>\n    \n\n"
+          },
+          "seePriceInCart": null,
+          "selectedVariantId": "225169"
+        }
+      ],
+      "unselectedVariationAttributes": "ALL_ATTRS_SELECTED",
+      "selectedVariantFilter": {},
+      "conditionAttributes": {
+        "attributeId": "condition",
+        "displayName": "Condition",
+        "id": "condition",
+        "swatchable": false,
+        "values": [
+          {
+            "id": "New",
+            "description": null,
+            "displayValue": "New",
+            "value": "New",
+            "selected": true,
+            "selectable": true,
+            "orderable": false,
+            "url": "https://www.gamestop.com/on/demandware.store/Sites-gamestop-us-Site/default/Product-Variation?dwvar_11108140_condition=&pid=11108140&quantity=1",
+            "attributeId": "condition",
+            "price": {
+              "sales": {
+                "value": 499.99,
+                "currency": "USD",
+                "formatted": "$499.99",
+                "decimalPrice": "499.99"
+              },
+              "list": null,
+              "html": "\n\n\n\n\n\n\n\n\t\n        <div class=\"price\">\n            \n            \n            \n            \n                \n                \n                \n                    <div class=\"default-pricing\">\n                        <span class=\"price\">\n    \n        \n\t\t\n\t\t\n\t\t\n\t\t\t\n\t\t<span class=\"badge-container-redesign\">\n\t\t\t\n\n\t\t\t\n\t\t</span>\n\t\t<span class=\"selling-price-redesign\">\n\t\t\t<span class=\"actual-price\">\n\t\t\t\t\n    $499.99\n\n\t\t\t</span>\n\t\t\t\n\n\t\t</span>\n    \n\t\n</span>\n\n\n                    </div>\n                \n            \n        </div>\n    \n\n"
+            },
+            "seePriceInCart": null,
+            "selectedVariantId": "225169"
+          }
+        ],
+        "resetUrl": "https://www.gamestop.com/on/demandware.store/Sites-gamestop-us-Site/default/Product-Variation?dwvar_11108140_condition=&pid=11108140&quantity=1",
+        "isBoxSelection": true
+      },
+      "allowApplePay": false,
+      "orderableRecommendations": {
+        "ID": null
+      },
+      "optionsHtml": "\n\n\n\n\n\n\n\n  <div class=\"col-12 product-options product-options-redesign p-2 mb-3\">\n    \n      \n        <div class=\"product-option col-12 row\" data-option-id=\"PRP\"\n          data-option-select-type=\"select\">\n          \n\t\n    \n\n\n\n\n\n\n\n\n\n\n    <div class=\"col-1 px-0 pt-1\">\n        \n\n\n\n\n\n\n<img class=\"icon warranty-plan-icon \" src=\"/on/demandware.static/Sites-gamestop-us-Site/-/default/dwafcafca5/images/svg-icons/warranty-plan-icon.svg\" alt=\"\" />\n\n\n    </div>\n\n\n<div class=\"col-11\">\n    <div class=\"row\">\n        <div class=\"col-auto product-option-name mb-1\">\n            Product Replacement Plan\n        </div>\n    </div>\n\n    <div class=\"row\">\n        \n            \n            \n                <div class=\"product-option-value mb-1 col-6\">\n                    <div class=\"form-check custom-control custom-radio\">\n                        <input id=\"option-PRP-NULL\" name=\"option-PRP\"\n                            type=\"radio\" class=\"custom-control-input \"\n                            value=\"https://www.gamestop.com/on/demandware.store/Sites-gamestop-us-Site/default/Product-Variation?dwopt_225169_PRP=NULL&amp;dwvar_11108140_condition=New&amp;pid=225169&amp;quantity=1\"\n                            data-value-id=\"NULL\"\n                            data-display-value=\"No replacement plan\"\n                            data-warranty-price=\"$0.00\"\n                            checked>\n\n                        <label class=\"custom-control-label\" for=\"option-PRP-NULL\">\n                            \n                                No replacement plan - $0.00 $0.00/mo.\n                            \n                        </label>\n                    </div>\n                </div>\n            \n                <div class=\"product-option-value mb-1 col-6\">\n                    <div class=\"form-check custom-control custom-radio\">\n                        <input id=\"option-PRP-590043\" name=\"option-PRP\"\n                            type=\"radio\" class=\"custom-control-input warranty-option\"\n                            value=\"https://www.gamestop.com/on/demandware.store/Sites-gamestop-us-Site/default/Product-Variation?dwopt_225169_PRP=590043&amp;dwvar_11108140_condition=New&amp;pid=225169&amp;quantity=1\"\n                            data-value-id=\"590043\"\n                            data-display-value=\"1-Year Plan\"\n                            data-warranty-price=\"$49.99\"\n                            >\n\n                        <label class=\"custom-control-label\" for=\"option-PRP-590043\">\n                            \n                                1-Year Plan - $49.99 $4.17/mo.\n                            \n                        </label>\n                    </div>\n                </div>\n            \n                <div class=\"product-option-value mb-1 col-6\">\n                    <div class=\"form-check custom-control custom-radio\">\n                        <input id=\"option-PRP-590006\" name=\"option-PRP\"\n                            type=\"radio\" class=\"custom-control-input warranty-option\"\n                            value=\"https://www.gamestop.com/on/demandware.store/Sites-gamestop-us-Site/default/Product-Variation?dwopt_225169_PRP=590006&amp;dwvar_11108140_condition=New&amp;pid=225169&amp;quantity=1\"\n                            data-value-id=\"590006\"\n                            data-display-value=\"2-year Plan\"\n                            data-warranty-price=\"$79.99\"\n                            >\n\n                        <label class=\"custom-control-label\" for=\"option-PRP-590006\">\n                            \n                                2-year Plan - $79.99 $3.33/mo.\n                            \n                        </label>\n                    </div>\n                </div>\n            \n        \n    </div>\n</div>\n\n\n          <input type=\"hidden\" value=\"1\" class=\"quantity-select\" />\n\n        </div>\n        \n          <div class=\"product-option-details\">\n            <a href=\"#\" data-toggle=\"modal\"\n              data-target=\"#optionDetails-PRP\">Plan Details</a>\n          </div>\n          <div class=\"modal fade\" id=\"optionDetails-PRP\" tabindex=\"-1\" role=\"dialog\"\n            aria-labelledby=\"optionModalTitle\" aria-hidden=\"true\">\n            <div class=\"modal-dialog\" role=\"document\">\n              <div class=\"modal-content\">\n                <div class=\"modal-header\">\n                  <h4 class=\"modal-title\" id=\"optionModalTitle\">Product Replacement Plan</h4>\n                  <button type=\"button\" class=\"close\" id=\"closeOptionDetails\" aria-label=\"Close\"><span\n                      aria-hidden=\"true\">&times;</span></button>\n                </div>\n                <div class=\"modal-body\">\n                  \n                    <style type=\"text/css\">.product-options-redesign .modal-header .close {\r\nposition: absolute;\r\nright: 15px;\r\ntop: 10px;\r\nfont-size: 2.5rem;\r\nfont-weight: 400;\r\n}\r\n.product-detail-redesign .modal .modal-body {\r\npadding: 0 54px 40px;\r\n}\r\n.product-options-redesign .modal.show .modal-dialog {\r\nmargin-top: 30px;\r\nheight: 100%;\r\noverflow:hidden;\r\n}\r\n.product-options-redesign .modal-header {\r\npadding: 52px 52px 24px; }\r\n.toggle-content {\r\ndisplay: none;\r\n}\r\n.product-options-redesign .modal-header h4 {\r\nfont-size:24px;\r\n}\r\n.product-options-redesign .game-para .img-para {\r\nwidth: 30px;\r\nheight: 30px;\r\ndisplay: inline-block;\r\nvertical-align: top;\r\npadding-top: 5px;\r\n}\r\n.product-options-redesign .game-para .content-para {\r\nwidth: calc(100% - 40px);\r\ndisplay: inline-block;\r\nvertical-align: top;\r\nfont-size: 14px;\r\nline-height: 1.3;\r\n}\r\n@media (min-width: 576px) {\r\n.product-options-redesign .modal-dialog {\r\nmax-width: 720px;\r\n}\r\n}\r\n@media (max-width: 575px) {\r\n.product-options-redesign .modal-header h4 {\r\nfont-size:22px;\r\n}\r\n.product-options-redesign .modal-header {\r\npadding: 52px 24px 14px;\r\ndisplay:block;\r\n}\r\n.product-detail-redesign .modal .modal-body {\r\npadding: 0 24px 24px;\r\n}\r\n}\r\n</style>\r\n        <div class=\"game-para\"><span class=\"img-para\"><img alt=\"Peace of mind\" src=\"https://www.gamestop.com/on/demandware.static/-/Sites-gamestop-us-Library/default/dw7a221c2d/content/noun_relax_1744917.svg\" title=\"\" /></span>\r\n        <p class=\"content-para\"><strong>Peace of mind - </strong>Sleep better knowing that your gaming products can receive a one-time replacement for normal wear and tear issues.</p>\r\n        </div>\r\n        \r\n        <div class=\"game-para\"><span class=\"img-para\"><img alt=\"Hassle-free Replacement\" src=\"https://www.gamestop.com/on/demandware.static/-/Sites-gamestop-us-Library/default/dwa305ab7e/content/noun_replace_1913722.svg\" title=\"\" /></span>\r\n        \r\n        <p class=\"content-para\"><strong>Hassle-free Replacement - </strong>Same day in-store replacement gets you back into the game quickly or send it back to us for an exchange.</p>\r\n        </div>\r\n        \r\n        <div class=\"game-para\"><span class=\"img-para\"><img alt=\"Save money\" src=\"https://www.gamestop.com/on/demandware.static/-/Sites-gamestop-us-Library/default/dw0ec463ec/content/noun_Save%20Money_945027.svg\" title=\"\" /></span>\r\n        \r\n        <p class=\"content-para\"><strong>Save money - </strong>Our replacement program is a fraction of the cost of having to purchase new products.</p>\r\n        </div>\r\n        \r\n        <p style=\"text-align: center;\"><span class=\"view-full-text\" style=\"color:#da362c; cursor:pointer; display: inline-block; border-bottom: 1px solid #da362c; \">View Full Warranty Details</span></p>\r\n        \r\n        \r\n        <div class=\"full-content toggle-content\">\r\n        <p>OBLIGOR: All obligations under this Plan are the responsibility of GameStop, Inc., except in Florida, Washington, and Wisconsin where the obligations under this contract are the responsibility of GameStop Service Company, LLC. Each of the applicable Obligors have an address of 625 Westport Parkway, Grapevine, TX 76051 and phone number of (800) 883-8895. The obligations of the provider of this Plan are backed by the full faith and credit of the applicable Obligor. Participation by Customer is subject to the approval of Obligor.</p>\r\n        \r\n        <p>1.  DEFINITIONS.<br/>\r\n        A. Failure: The mechanical or operational failure of hardware or software caused by defects in materials and/or workmanship, and, with respect to software, the mechanical or operational failure caused by normal wear and tear.<br/>\r\n        B. GPG: Game Play Guarantee coverage for software and the sales receipt documenting the purchase of the same, which receipt is incorporated herein by reference.<br/>\r\n        C. Lessee: under an LTO Arrangement means the payor customer leasing the Product and this Plan.<br/>\r\n        D.  Lessor: under an LTO Arrangement means the owner of the Product and payee of cash benefits under this Plan until the Lessee fulfills its obligations under the LTO Arrangement necessary to acquire full ownership of the Product and this Plan. <br/>\r\n        E. LTO Arrangement:  a lease-to-own arrangement entered into by You in respect of any hardware or software.<br/>\r\n        F. PRP: Product Replacement Plan coverage for hardware and the sales receipt documenting the purchase of the same, which receipt is incorporated herein by reference.<br/>\r\n        G. Plan: The PRP and/or GPG purchased by You.<br/>\r\n        H. Product: The hardware and/or software covered by this Plan and purchased contemporaneously with this Plan.<br/>\r\n        I. You, Your, Customer: The individual who purchased this Plan and the Product, including the Lessee, if the product and this Plan were acquired under a lease-to-own arrangement (LTO Arrangement), as further described in the LTO Arrangement provisions below.<br/>\r\n        J. We, Us, Our: the applicable Obligor. Coverage:</p>\r\n        \r\n        <p>2. COVERAGE.<br/>\r\n        A. PRP Coverage: This PRP will provide for repair or one-time replacement, at Our sole discretion, of the hardware covered by this PRP in the event of a Failure not covered by insurance or any other warranty or service contract.<br/>\r\n        B. GPG Coverage: This GPG will provide for one-time replacement of the software covered by this GPG in the event of a Failure not covered by insurance or any other warranty or service contract.<br/>\r\n        C. LTO Arrangement: If the Product and this Plan was originally obtained through an LTO Arrangement, the payment of any refund will be provided to the owner of the Product at the time it is made. If the Lessee has not yet obtained ownership of the Product when a refund is made, payment will be provided to the Lessor. However, the Lessee will otherwise retain a beneficial interest in this Plan and all non-cash fulfillment benefits provided by this Plan will be provided to the Lessee. This Plan is transferable to the original Lessee who has acquired full ownership of the Product.</p>\r\n        \r\n        <p>3.  TERM.  The term of this PRP, if applicable, shall begin on the date of purchase of the covered Product, as indicated on Your sales receipt, and will end on either the twelve (12) month anniversary or (24) month anniversary of such date, as indicated on Your sales receipt for a new Product. The term of the GPG, if applicable, begins on the date of purchase of the covered Product, as indicated on Your sales receipt, and will end on the twelve (12) month anniversary of such date.</p>\r\n        \r\n        <p>4. LIMITATIONS OF COVERAGE. This Agreement Does Not Cover:<br/>\r\n        A. Any product owned or operated outside the United States and its Territories.<br/>\r\n        B. Repairs and/or service required as a result of any alteration of the Product, repairs not made by Us or the use of supplies not recommended or recognized as industry equivalents.<br/>\r\n        C. Relocation, installation or reinstallation of any Product.<br/>\r\n        D. Damage (including rust or corrosion) due to causes beyond Our control including, but not limited to, misuse, abuse, riot, vandalism, theft, fire, flood, wind, lightning, freezing, power failure, power reduction, inadequate power supply, unusual atmospheric conditions, telephone failure, or Acts of God.<br/>\r\n        E. Expendable item(s), including, but not limited to, batteries and other operating supplies and consumable item(s).<br/>\r\n        F. Repairs and/or service required as a result of use of non-compatible software or cartridges.<br/>\r\n        G. Telephone or other lines connecting to the Product.<br/>\r\n        H. Purely cosmetic scratches, peeling, dents or any other similar damage.<br/>\r\n        I. Any preventative maintenance.<br/>\r\n        J. Any product used for rental or commercial purposes (other than an LTO Arrangement).<br/>\r\n        K. Any failure covered by insurance or any other warranty or service contract.<br/>\r\n        L. Any pre-existing conditions that occur or arise prior to the effective date of this Plan.</p>\r\n        \r\n        <p>5. DISCLAIMERS AND LIMITATIONS OF LIABILITY.  Our sole responsibility under this Plan shall be limited to providing service for repair or replacement of the Product, at Our election. THE TOTAL LIABILITY UNDER THIS PLAN IS THE PURCHASE PRICE YOU PAID FOR THE PRODUCT; IN THE EVENT THAT THE TOTAL OF ALL AUTHORIZED REPAIRS EXCEEDS THE PURCHASE PRICE PAID FOR THE PRODUCT OR WE, IN OUR SOLE DISCRETION, DECIDE TO REPLACE THE PRODUCT WITH A PRODUCT OF LIKE KIND AND OF EQUAL OR GREATER VALUE, WE SHALL HAVE SATISFIED ALL OF OUR OBLIGATIONS OWED UNDER THIS PLAN. WE SHALL HAVE NO OTHER LIABILITY OR RESPONSIBILITY TO CUSTOMER OR ANY OTHER PERSON OR ENTITY WITH RESPECT TO PARTS OR ANY OTHER COMPONENT OF THE PRODUCT, OR DAMAGE CAUSED OR ALLEGED TO BE CAUSED DIRECTLY OR INDIRECTLY BY US. IN NO EVENT SHALL WE BE LIABLE FOR ANY INCIDENTAL, INDIRECT, SPECIAL OR CONSEQUENTIAL DAMAGES ARISING OUT OF ANY BREACH OF THIS PLAN, INCLUDING, BUT NOT LIMITED TO, PROPERTY DAMAGE, LOST TIME, LOSS OF USE OF ANY EQUIPMENT OR ANY DAMAGES RESULTING FROM THE FAILURE OF ANY PRODUCT OR FROM DELAYS IN SERVICING OR THE INABILITY TO RENDER SERVICE ON ANY EQUIPMENT, INCLUDING DAMAGES RESULTING FROM SUBSTITUTE PRODUCTS PROVIDED IN ACCORDANCE WITH THIS PROVISION. Our liability for damages resulting from any cause whatsoever, including, but not limited to, our negligence or installation of defective parts or components whether or not such defect was known or discoverable, shall not exceed the actual price paid to Us by Customer for the Product or parts, whichever is less. We shall not be responsible for damages caused by accidents, misuse, misapplication, neglect by Customer or any of his or her agents or employees or as a result of service by any person other than Our representative; placement or operation of the Product in an area that does not comply with manufacturer’s published space or environmental requirements; or improper storage or use of the Product. Some states do not allow the limitation or exclusion of incidental or consequential damages; therefore, the aforesaid limitations(s) or exclusion(s) may not apply to Customer. In the event of a claim or dispute, contact GameStop Customer Service Center toll-free at (800) 883-8895, or in writing at 625 Westport Parkway, Grapevine, TX 76051.</p>\r\n        \r\n        <p>6. ARBITRATION.  Any and all claims, disputes or controversies of any nature whatsoever (whether in contract, tort, or otherwise, including, but not limited to, statutory, common law, fraud, other intentional tort, property and equitable Claims) arising out of, relating to, or in connection with (A) this Plan; (B) the relationships which result from this Plan; or (C) the validity, scope or enforceability of this arbitration provision, this entire Plan, or any other provision(s) of this Plan (a “Claim”) shall be resolved on an individual basis without resort to any sort of class action by final and binding arbitration before a single arbitrator. The arbitrator selected pursuant to this arbitration clause shall be a lawyer or retired judge with not less than fifteen years’ experience in the practice of law. All arbitrations shall be administered by the American Arbitration Association (“AAA”) in accordance with its Code of Procedure in effect at the time the Claim is filed. Any arbitration initiated under this provision will take place at a location within the federal judicial district in which Customer resides at the time the Claim is filed. The arbitrator will decide whether We or You will be responsible for any fees or expenses of AAA and of the arbitrator in accordance with the Code of Procedure. Any party to the arbitration may seek discovery from any other party to the extent permitted under the Code of Procedure or upon application to the arbitrator, at the arbitrator’s discretion. The arbitrator shall be the sole and exclusive judge of the law and the facts and shall issue a written decision following a hearing held in accordance with the Code of Procedure. This arbitration provision is made pursuant to a transaction involving interstate commerce and shall be governed by the Federal Arbitration Act, 9 U.S.C § 1 et seq. If any portion of this arbitration provision is deemed invalid or unenforceable, it shall not invalidate the remaining portions of this arbitration provision. For the purpose of this arbitration provision, We, Us and Our shall be deemed to include Our parent company, all of its subsidiaries, affiliates, successors and assigns and all of the licensees, agents and employees of any of the foregoing entities. This arbitration provision shall inure to the benefit of and be binding on each of the foregoing persons and entities and on Customer and his or her successors, assigns, agents, trustees and executors. WE AND YOU UNDERSTAND AND AGREE THAT NEITHER WE NOR YOU WILL HAVE ANY RIGHT TO PURSUE ANY CLAIM IN COURT, HAVE A TRIAL BY JURY OR JUDGE, OR INITIATE OR PARTICIPATE AS A REPRESENATATIVE OF OR MEMBER IN ANY CLASS OF PERSONS MAKING OR PURSUING ANY CLAIM.</p>\r\n        \r\n        <p>7.  CANCELLATION.<br/>\r\n        A. Customer may cancel this Plan at any time for any reason by surrendering it, with the sales receipt, as proof of purchase, to the GameStop or EB Games retail store from which Customer purchased this Plan or by mailing this Plan and the sales receipt to GameStop Customer Service Center, 625 Westport Parkway, Grapevine, TX 76051.<br/>\r\n        B. Within thirty (30) days of Customer’s purchase date: If Customer cancels this plan within thirty (30) days of its purchase and no claims have been paid, subject to the LTO Arrangement provision above, We will refund 100% of the purchase price (as shown on the sales receipt) of this Plan.<br/>\r\n        C. Thirty-one (31) days beyond Customer’s purchase date: If Customer cancels this Plan after thirty (30) days or if Customer cancels this Plan after a claim had been paid, subject to the LTO Arrangement provision above, We will refund the purchase price allocable to the remainder of the term of this Plan prorated on a monthly basis, or any portion thereof, less an administrative fee equal to the lesser of 10% of the purchase price of this Plan or $25.00 and less the cost of any service provided under this Plan.<br/>\r\n        D. If We cancel this Plan for any reason, other than Customer’s material breach of his or her duties hereunder or a material misrepresentation by Customer, subject to the LTO Arrangement provision above, We will refund 100% of the purchase price (as shown on the sales receipt) of this Plan. In the event We cancel this Plan for material breach of duties or material misrepresentation by Customer, the refund shall equal the purchase price allocable to the remainder of the term of this Plan prorated on a monthly basis, or any portion thereof. If We cancel this Plan, We must provide at least thirty (30) days prior written notice to Customer’s last known address, with the effective date of cancellation and the reason for the cancellation.<br/>\r\n        E. A 10% penalty per month shall be applied to refunds not paid or credited to Customer within thirty (30) days of cancellation of this Plan. F. If this Plan is cancelled for any reason, Customer will retain the remaining balance, if any, of the manufacturer’s warranty.</p>\r\n        \r\n        <p>8. SERVICE.<br/>\r\n        A. All service under this Plan is on a “carry-in” basis only. To obtain PRP service under this Plan, Customer must bring the Product, this Plan and the sales receipt, as proof of purchase, to a GameStop or EB Games retail store. Customer will not be reimbursed for his or her cost of transporting the Product to obtain service under this Plan.<br/>\r\n        B. Service will be performed during normal business hours. If the repair service requested by Customer is covered under a PRP, either (i) We will provide Our responsible representative to perform such service, or (ii) We will replace the Product.<br/>\r\n        C. Customer is not required to perform preventative maintenance to receive service under this Plan.<br/>\r\n        D. Customer is not entitled to any other product for the Product covered by this Plan.<br/>\r\n        E. The product or parts used to replace or repair the Product may be new, used or remanufactured, as determined by Us in Our sole discretion.<br/>\r\n        F. For claim information, call toll-free (800) 883-8895.</p>\r\n        \r\n        <p>9. PAYMENT AND PURCHASE. This Plan may only be purchased at the time of purchase of the Product. </p>\r\n        \r\n        <p>10. ASSIGNMENT.  We reserve the right to assign all of Our rights and obligations under this Plan, subject to applicable law, and to subcontract any service to be provided under this Plan. This Plan is not renewable and Customer may not, except as provided in the LTO Arrangement Section above, transfer his or her rights and obligations under this Plan to any other party.</p>\r\n        \r\n        <p>11. ENTIRE AGREEMENT. This Plan and Your sales receipt incorporated herein represent the entire agreement between You and Us. No oral statements or other written representation amends, alters, or modifies the terms and conditions of this Plan. </p>\r\n        \r\n        <p>12. CHOICE OF LAW. This Plan shall be construed under and governed by the internal laws of the State of Texas without regard to its principles of conflicts of law. With respect to those states that deem Section 6 (Arbitration) invalid or unenforceable, any legal action, suit or proceeding arising out of or relating to this Plan shall be instituted in any federal court in the Northern District of Texas or in any state court in Tarrant County, Texas.</p>\r\n        \r\n        <p>13.  SPECIAL REQUIREMENTS FOR CERTAIN STATES<br/>\r\n        A. California only: Informal dispute resolution is not available. If You cancel this Plan within thirty (30) days of receipt of this Plan, You shall receive a refund equal to 100% of the purchase price paid, as shown on Your sales receipt, for this plan.<br/>\r\n        B. Connecticut only: In the event of a dispute with Us, Customer may contact State of Connecticut, Insurance Department, P.O. Box Hartford, CT 06142-0816, Attn: Consumer Affairs. The written complaint must contain a description of the dispute, the purchase price of the Product, the cost of repair of the Product, and a copy of this Plan. You may cancel this Plan if You return the Product or if the Product is lost, sold, stolen or destroyed.<br/>\r\n        C. Florida only:  The rate charged for this service contract is not subject to regulation by the Florida Office of Insurance Regulation.<br/>\r\n        D. Georgia only: This is not a contract of insurance. This agreement does not cover any pre-existing conditions that were known or that should have been known to You that occur or arise prior to the effective date of this Plan. If You cancel after thirty (30) days of receipt of this Plan, You will receive a pro rata refund of the purchase price. Written notice of cancellation and cancellation of this Plan will comply with Section 33-24-44 of the Code of Georgia. We will only cancel the service contract for fraud, material misrepresentation, or nonpayment. Claims paid shall not be deducted from any refund owed as a result of cancellation by Us. Any refund owed and not paid as required is subject to a penalty equal to 25% of the refund owed and interest of 18% per year until paid; however, such penalty shall not exceed 50% of the amount of the refund. Any decision rendered in accordance with the Arbitration section of this Plan is not binding on You. Any court having jurisdiction of the customer’s residence. Our obligations under this Plan are insured by Travelers Casualty & Surety Company of America, 499 Thornall Street, Edison, NJ 08837; You may contact the Bond Department of the surety at that address, or at phone number (800) 442-5806. Should we fail to pay a claim or issue a refund within sixty(60) days after the filing of a proof of loss, then You are entitled to file a direct claim with this insurer.<br/>\r\n        E. Illinois only: This Plan does provide coverage for Failure caused by normal wear and tear.<br/>\r\n        F. Michigan only: If performance under this Plan is interrupted because of a strike or work stoppage at Our place of business, the effective period of this Plan shall be extended for the period of the strike or work stoppage.<br/>\r\n        G. Nevada only: No claim incurred or paid will be deducted from the amount to be returned in the event of cancellation of this Plan. If this Plan has been in force for a period of seventy (70) days, We may not cancel before the expiration date of the Plan term or one (1) year, whichever comes first , unless: (i) You fail to pay any amount due; (ii) You are convicted of a crime that results in an increase in the service required under the Plan; (iii) You engage in fraud or material misrepresentation in obtaining this Plan; (iv) You commit any act, omission, or violation of any terms of this Plan after the effective date of this Plan that substantially and materially increases the service required under this Plan; or (v) any material change in the nature or extent of the required service or repair occurs after the effective date of this Plan and causes the required service or repair to be substantially and materially increased beyond that contemplated at the time You purchased this Plan. In the event We cancel this Plan, We may not charge a cancellation fee. This Plan will be construed under and governed by the laws of the state of Nevada.  the event You are not satisﬁed with the manner in which We are handling a claim under this Contract, You may contact the Nevada Commissioner of Insurance by calling the following toll-free telephone number: 888-872-3234.<br/>\r\n        H. New Hampshire only: In the event You do not receive satisfaction under this contract, You may contact the New Hampshire Department of Insurance at 21 South Fruit Street, Suite 14, Concord, NH 03301, phone number (800) 852-3416.<br/>\r\n        I. New Mexico only: If this Plan has been in force for a period of seventy (70) days, We may not cancel before the expiration of the Plan term or one (1) year, whichever comes first, unless: (i) You fail to pay any amount due; (ii) You are convicted of a crime that results in an increase in the service required under the Plan; (iii) You engage in fraud or material misrepresentation in obtaining this Plan; or (iv) You commit any act, omission, or violation of any terms of this Plan after the effective date of this Plan that substantially and materially increases the service required under this Plan.<br/>\r\n        J. North Carolina only: You understand that the purchase of this Plan is not required to purchase or to obtain financing for the Product. We may not cancel this Plan except for nonpayment by You or for Your violation of any of the terms and conditions of this Plan.<br/>\r\n        K. South Carolina only: If Customer has any questions regarding this Plan, or a complaint against Us, Customer may contact the South Carolina Department of Insurance at 1201 Main St. Suite 1000, Columbia, South Carolina 29201, (800) 768-3467.<br/>\r\n        L. Texas only: If Customer has any questions regarding the regulation of Us or a complaint against Us, Customer may contact the Texas Department of Licensing & Regulation, 920 Colorado, P.O. Box 12157, Austin, TX 78711, (800) 803-9202.<br/>\r\n        M. Utah only: Coverage afforded under this Plan is not guaranteed by the Property and Casualty Guaranty Association. After this Plan has been in effect for sixty (60) days,   We may cancel this Plan only for the following reasons: (i) nonpayment of premium; (ii) material misrepresentation; (iii) substantial change in the risk assumed, unless We should reasonably have foreseen the change or contemplated the risk when entering into the Plan; or (iv) substantial breaches of contractual duties, conditions, or warranties. The notice of cancellation must be in writing to You at Your last known address and contain\r\n        all of the following: (i) the Plan number; (ii) the date of notice; (iii) the effective date of the cancellation; and (iv) a detailed explanation of the reason for cancellation.<br/>\r\n        N. Wisconsin only: THIS CONTRACT IS SUBJECT TO LIMITED REGULATION BY THE OFFICE OF THE COMMISSIONER OF INSURANCE. You may cancel this Plan within thirty (30) days after receipt of the Plan and receive a full refund of the purchase price paid. Claims paid or the cost of repairs shall not be deducted from any refund owed under this Plan. In the event of a claim, proof of loss should be furnished by You to Us as soon as reasonably possible. Failure to furnish such notice of proof within\r\n        the time specified or the failure to obtain preauthorization for claim service does not invalidate or reduce a claim unless We are prejudiced by such a failure. We may only cancel this Plan for material misrepresentation, a substantial change in the risk assumed, or a substantial breach of contractual duties, conditions or warranties. In the event of a total loss of property covered by this contract that is not covered by a replacement of the property pursuant to the terms of this contract, You are entitled to cancel this Plan and receive a pro rata refund of any unearned provider fee, less any claims paid. The Arbitration provision of this Contract is amended as follows: TO RESOLVE DISPUTES, YOU MAY CHOOSE EITHER BINDING ARBITRATION, PURSUANT TO THE ARBITRATION PROVISION OF THIS PLAN, OR SMALL CLAIMS COURT. BY AGREEING TO THIS PLAN, YOU AND WE WAIVE THE RIGHT TO HAVE DISPUTES RESOLVED THROUGH COURTS OF GENERAL JURISDICTION, THE RIGHT TO TRIAL BY JURY, AND TO PARTICPATE IN CLASS ARBITRATIONS AND CLASS ACTIONS.<br/>\r\n        O. Wyoming only: Arbitration of any claim or dispute arising under this Plan shall be initiated in and conducted in compliance with and pursuant to the Wyoming Arbitration Act. Any legal action, suit or proceeding arising out of or relating to this Plan shall be instituted in any federal or state court having jurisdiction of the customer’s residence.<br/><br/>\r\n        COVERAGE SUMMARY. The term of this Plan begins on the date of purchase. The sales receipt showing the purchase of the Product and this Plan must be attached to this Plan to receive coverage.<br/>\r\n        Your rights and obligations under this Plan may vary in different states. GSPRP/GPG001 (Rev. 10/20)</p>\r\n        \r\n        </div>\n                \n                </div>\n              </div>\n            </div>\n          </div>\n        \n      \n    \n  </div>\n\n",
+      "attributesHtml": "\n\n\n    <div class=\"product-attributes-section\">\n        \n            \n            \n        \n    </div>\n\n\n"
+    },
+    "lineItemStoreId": null,
+    "resources": {
+      "info_selectforstock": "Select Styles for Availability",
+      "info_seeincart": "See Price in Cart",
+      "info_notavailable_button": "Not Available",
+      "info_notavailable": "This item is currently not available online",
+      "info_selectedForStorePickup": "This item is currently selected for store pickup",
+      "showall_promotions": "Show All Promotions",
+      "showfewer_promotions": "Show Fewer Promotions",
+      "show_details": "Details",
+      "sale_indicator": "Sale $",
+      "save_indicator": "Save $",
+      "save_indicator_comparison": "versus new price"
+    },
+    "savingViolatorPercentage": 10,
+    "gtmData": {
+      "productInfo": {
+        "sku": "225169",
+        "productID": "11108140",
+        "name": "PlayStation 5",
+        "category": "Video Games/PlayStation 5/Consoles",
+        "brand": "Sony",
+        "subGenre": "",
+        "platform": "PlayStation 5",
+        "condition": "New",
+        "variant": "New",
+        "genre": "",
+        "availability": "Not Available",
+        "productType": "regular",
+        "zoneSource": "PDP"
+      },
+      "price": {
+        "sellingPrice": "499.99",
+        "basePrice": "499.99",
+        "currency": "USD"
+      }
+    },
+    "minShowPromotionLength": 1,
+    "sameDayDelivery": {
+      "isSDDEnable": true,
+      "actionUrl": "/on/demandware.store/Sites-gamestop-us-Site/default/Product-SameDayDelivery"
+    },
+    "__mccEvents": [
+      [
+        "updateItem",
+        [
+          {
+            "item_type": "product",
+            "item": "11108140",
+            "name": "PlayStation 5",
+            "url": "https://www.gamestop.com/video-games/playstation-5/consoles/products/playstation-5/225169.html",
+            "unique_id": "225169",
+            "available": false,
+            "image_url": "https://media.gamestop.com/i/gamestop/11108140/PlayStation-5",
+            "sale_price": 499.99,
+            "price": 499.99,
+            "description": "<p>Play Has No Limits™\r\n<br>\r\nThe PS5™ console unleashes new gaming possibilities that you never anticipated.\r\n<br>\r\nExperience lightning fast loading with an ultra-high speed SSD, deeper immersion with support for haptic feedback, adaptive triggers, and 3D Audio, and an all-new generation of incredible PlayStation® games.</p>"
+          }
+        ]
+      ],
+      [
+        "trackPageView",
+        {
+          "item": "225169",
+          "price": 499.99,
+          "availability": false
+        }
+      ]
+    ]
+  }

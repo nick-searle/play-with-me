@@ -13,17 +13,11 @@ namespace console.Services
 
         public List<SearchItem> CheckTarget(string mode)
         {
-            var rawResponse = httpHelper.GetResponse("https://www.target.com");
-            var responseHeaders = rawResponse.Headers;
-            var visitorId = httpHelper.GetCookie(responseHeaders, "visitorId");
-            Console.WriteLine($"Key: {visitorId}");
-            Console.WriteLine();
-
-            var funcUrl = $"https://bccg-ns-test-func.azurewebsites.net/api/checktargetstatus?mode={mode}&key={visitorId}&code=woxKa6bScWocvrGV6zZIjoOoHdVI3V5yxWz1bhekISzzFuafL5GkKg==";
+            var funcUrl = $"https://bccg-ns-test-func.azurewebsites.net/api/checktargetstatus?mode={mode}&code=woxKa6bScWocvrGV6zZIjoOoHdVI3V5yxWz1bhekISzzFuafL5GkKg==";
 
             if (mode.Contains("-d"))
             {
-                funcUrl = $"http://localhost:7071/api/CheckTargetStatus/?mode={mode}&key={visitorId}";
+                funcUrl = $"http://localhost:7071/api/CheckTargetStatus/?mode={mode}";
             }
 
             Console.WriteLine($"Target func: {funcUrl}");

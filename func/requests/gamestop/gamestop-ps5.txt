@@ -1,0 +1,32 @@
+General:
+
+Request URL: https://www.gamestop.com/on/demandware.store/Sites-gamestop-us-Site/default/Product-Variation?dwvar_11108140_condition=New&pid=11108140&quantity=1&redesignFlag=true&rt=productDetailsRedesign
+Request Method: GET
+Status Code: 200 
+Remote Address: 184.27.209.9:443
+Referrer Policy: strict-origin-when-cross-origin
+
+Request headers:
+
+:authority: www.gamestop.com
+:method: GET
+:path: /on/demandware.store/Sites-gamestop-us-Site/default/Product-Variation?dwvar_11108140_condition=New&pid=11108140&quantity=1&redesignFlag=true&rt=productDetailsRedesign
+:scheme: https
+accept: */*
+accept-encoding: gzip, deflate, br
+accept-language: en-US,en;q=0.9
+cookie: _caid=332ad842-675e-45d1-8be6-5c8763fda0c5; _gcl_au=1.1.127070165.1606698515; __cfduid=d6711801da740e16bd49d540e12844e251606698514; _ga=GA1.2.515919417.1606698515; _mibhv=anon-1606698514877-1746211327_6874; RES_TRACKINGID=29995937451589660; ResonanceSegment=1; BVBRANDID=a5929ce8-c208-433e-a7c1-8edb45ad9a6d; QuantumMetricUserID=4d32442c4536cdbb9184c4665c32a472; __cq_uuid=9265ed20-32a8-11eb-9adb-35bcac05dfa1; __cq_bc=%7B%22bcpk-gamestop-us%22%3A%5B%7B%22id%22%3A%2210114375%22%2C%22sku%22%3A%22909275%22%7D%5D%7D; _fbp=fb.1.1606698516063.1503560205; dwanonymous_420142ceefb9f0c103b3815e84e9fcef=abvx1JcQbGTHWtmxiTokTkdxQM; __gads=ID=234fd0e3cae2cadf:T=1606698516:S=ALNI_MbYDHLfjKjIgSW0PbNzSpizl1XrCw; __adroll_fpc=15a6aeab7095798aed82eb47b0660d32-1606698518366; sto__vuid=25f9a4f17500ad622f0f47ccbfbb1f39; salsify_session_id=cd8787c2-8251-41fc-ab7b-47931b2897bd; _aeaid=41613551-e7d8-4830-bf04-b6130479f224; __cq_seg=0~0.02!1~-0.52!2~-0.22!3~-0.03!4~0.40!5~0.08!6~0.41!7~-0.06!8~0.52!9~0.27; _gcl_aw=GCL.1606698549.EAIaIQobChMIzYXCqYqp7QIVMfLjBx2RdQLCEAYYAiABEgJgTPD_BwE; _gcl_dc=GCL.1606698549.EAIaIQobChMIzYXCqYqp7QIVMfLjBx2RdQLCEAYYAiABEgJgTPD_BwE; _gac_UA-10897913-30=1.1606698552.EAIaIQobChMIzYXCqYqp7QIVMfLjBx2RdQLCEAYYAiABEgJgTPD_BwE; akaas_ChatThrottling=2147483647~rv=45~id=cb7cd19da25d065fa2c12ab36d4b395d~rn=; bm_sz=EFC260924AC41C3E037185358AB4A114~YAAQNAMkF7Z0xzF2AQAAdVcoOwpYUCLYEPc1K52ponbr4AvTi8KT8R5NvDbwmHaUQd/5GRJsQJWLdzJ4da9TggjmClwn5x4nPa2X0JtAl3jbijy8qMlLEqvU8NB/Aa0UGPOyfOY59XTDMBxUrNQ921Z+hm/J/e598wHa8+tNWsYGyi1tKGxLiOmj/L4h7GROTO4=; _cavisit=1763b285954|; _gid=GA1.2.2131690907.1607310269; _gat_UA-10897913-30=1; RES_SESSIONID=49670835696201370; ak_bmsc=97BBC083FE592AC272C7C12C2887A59A1724033491770000BC9BCD5FA896D276~plkHFeYcmYEwO7YCszwLzYQM75It4T2S0Ex8FGaagZdBz72nTRd7SU7c+EYKavrW/QUqi0JnyixOQCiiODh8p5/9Vv4yHXy75/zhMli5f5XrGu8ThaORlgKOAgx1o+0BdHdJfEDBaIVBrFyI1VhcftT/qV8h8xIHI8aNBfaXnXqn5pKEBUgor3byCbAo9imA+JFxnCLTatC2CRKh5iKaTd+G1q8anvNwstUSFb+NGoFNRQOCHM66T4A15jSA4ALifr; QuantumMetricSessionID=c1c6b25a731f6000310cf27536ead026; cqcid=abvx1JcQbGTHWtmxiTokTkdxQM; cquid=||; customergroups=Everyone; userInfo=S=N|R=N|C=0; __cq_dnt=0; dw_dnt=0; dwac_a78eb5a11975e4c9cbc84f55ad=oenoXNc9a5tzVAgaFfUAMjGfw8iD68mZWJw%3D|dw-only|||USD|false|US%2FCentral|true; sid=oenoXNc9a5tzVAgaFfUAMjGfw8iD68mZWJw; dwsid=gLd9lRSXr2BJfSgWCPoK_BDBVgFAQQ1iYrVqFYLJgfKXt610s9nDiHk1Du6oxZLX0E3ZI-TKTCdh3x3HTwzNvw==; bm_mi=0FFE4332A2F37CF3961FE2308CC26CDC~nhbLUup+Ouj/ol3+P844dSs6ADk8pCE7Ay9QeEW776heFy5PFbi8doFEnyq0LY2lg/txEY8AkQKTboeGjG36JH20XNzq7cVe0SVefLUf//zcOl/6QAS5LIwL5tv3F01RbPxnqls1582J+Z2r9QoxCGWVg6SU5p+Ze1j7KtutI0hOCzQQ26Z0u3+VvB38fCXJlDvmwk9QNU3N/SoR+ly6+/oZYNu1I81FJS0TZpGAEXAcmacWa370kRyeElLLI/HqDVCaBsI/0Okd+Mfwuoz+KdV64bu/IVbmPjuSLbLlJgN488ro1XjYnM/Ht+uhsORB; sto__session=1607310271111; QSI_HistorySession=https%3A%2F%2Fwww.gamestop.com%2F~1607310274798; aeatstartmessage=true; stc118903=env:1607310269%7C20210107030429%7C20201207033436%7C2%7C1084111:20211207030436|uid:1606698516212.1733688952.7255945.118903.1014156460:20211207030436|srchist:1084103%3A1%3A20201231010836%7C1084111%3A1607310269%3A20210107030429:20211207030436|tsa:1607310269107.1486675929.664651.7821451778766406.2:20201207033436; sto__count=1; __ar_v4=LYMS2JROHVD63FLBYRL4RH%3A20210006%3A2%7CHGAM45IRB5GXVJPUZ3AIJV%3A20201130%3A5%7CCWCJVNECPVH55FDDSNFWB4%3A20201130%3A5%7CDWRHGE2JARGDLEAJB5NHM6%3A20201130%3A3; QSI_S_SI_3wI8Q9U6pfO1aAZ=r:25:2; _abck=BC002831D722B0A951DC5CAD8D9614BB~-1~YAAQNAMkF0V2xzF2AQAAfowoOwWSZBhNuNhlpRCvm6ly1MtgvnJQIjLhKkUGD8VJX4dzESuCMK710LGyQVXC/7TjpyUbnETVO29y5IWztfaQwbKj6FxLD8AS9+p26KVUrCneaUGpfRGzapK2Q2i+lIC0AU+Bl6XRvPo5vPjxVR9lnMOzqVZMzvYo/u1dC7pvm/bjNhlprVM74O5Kk3q5/l9p4lex9Q+/Vp2GBp0XWhrIwkiVIJCcmnRdOlBxE73ETtBWEGO1f6KoqLn1p6t1UcBquJwsSfg5hufKgnpm0HX1v6v1YT+yGyz1tLO/XxaKKWlkseUEizVzJFvgO47uv19w5jcORmr7Otb3ypm8Pr/B9cxv+A==~-1~-1~-1; bm_sv=5D6130C3BCA136A32E8ED92E595CEB8D~OVDcLwPSodgUVmnNueBF++pII3O66GpxNF0V+ZpnxRC14nENRnvEUHvG6LJBK/bji3YLJSPhmqvBx3Rdzc2axLtNaZ61WkyNYl6+5In5mAJ3og882DWgy02DOEVW5RcKLMSJg8X8b6U9SBvEWftlHL0DlJYp9mmug/k8bhOAPDw=; RT="z=1&dm=gamestop.com&si=q71neey50c&ss=kidz18mx&sl=0&tt=0"; _uetsid=ec3023f0383811eb8eb437e2e1ef229e; _uetvid=9253c90032a811ebaf1be5b1c13d2923; BVBRANDSID=6f7bd47c-f57f-4898-9a1e-3e8b9ea2c84a
+referer: https://www.gamestop.com/video-games/playstation-5/consoles/products/playstation-5/11108140.html?condition=New
+sec-fetch-dest: empty
+sec-fetch-mode: cors
+sec-fetch-site: same-origin
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36
+x-requested-with: XMLHttpRequest
+
+Query params:
+
+dwvar_11108140_condition: New
+pid: 11108140
+quantity: 1
+redesignFlag: true
+rt: productDetailsRedesign

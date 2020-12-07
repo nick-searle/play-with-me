@@ -36,6 +36,7 @@ namespace play_with_me
 
             var targetService = new TargetService();
             var neweggService = new NeweggService();
+            var gamestopService = new GamestopService();
 
             var random = new Random(1);            
             do
@@ -46,8 +47,8 @@ namespace play_with_me
                 if (DateTime.Now.Hour > 4)
                 {
                     var items = targetService.CheckTarget(mode);
-
                     items.AddRange(neweggService.CheckNewegg(mode));
+                    items.AddRange(gamestopService.CheckGamestop(mode));
 
                     items = items.Where(i => i.Instock).ToList();
                     

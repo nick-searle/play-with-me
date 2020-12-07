@@ -13,7 +13,7 @@ namespace play_with_me.common.Services
             var body = new StringBuilder("<ul>");
             foreach (var item in items)
             {
-                body.AppendLine($"<li><a href=\"https://www.target.com{item.Url}\">{item.Title}</a></li>");
+                body.AppendLine($"<li><a href=\"{item.Url}\">{item.Title}</a></li>");
             }
             body.AppendLine("</ul>");
 

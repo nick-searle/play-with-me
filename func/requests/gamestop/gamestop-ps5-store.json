@@ -1,0 +1,33 @@
+{
+    "action": "Stores-ProductDetailStoreAvailability",
+    "queryString": "pid=11108140&redesignFlag=true&storeId=4681",
+    "locale": "default",
+    "storeId": "4681",
+    "masterProductId": "11108140",
+    "storeDetails": "9815 SAM FURR RD HUNTERSVILLE, NC 28078",
+    "storePickupDetails": null,
+    "hasVariantsAvailableForPickup": false,
+    "hasVariantsAvailableForPickupInStock": false,
+    "hasVariantsAvailableForLookup": false,
+    "hasCondition": false,
+    "productVariationAttributesLength": 0,
+    "actionUrl": "/on/demandware.store/Sites-gamestop-us-Site/default/Stores-InventorySearch?showMap=false&horizontalView=true&isForm=true&source=pdp",
+    "variationAttributes": {},
+    "masterConditionsInStock": [],
+    "products": [],
+    "resources": {
+      "notAvailable": "Not Available",
+      "addToCart": "Add to Cart",
+      "inStockAtStore": "This item is currently available for store pickup",
+      "inStockAtStorePreorder": "This pre-order is available for store pickup",
+      "checkOtherStores": "Check Other Stores",
+      "checkStoreInventory": "Check Store Inventory"
+    },
+    "pdpFreePickUpCopy": "Free pick up at store with delivery@door",
+    "pdpFreePickUpOrderByCopy": "Order by 6p local time to pick up TODAY!",
+    "__mccEvents": [
+      [
+        "trackPageView"
+      ]
+    ]
+  }

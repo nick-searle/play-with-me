@@ -18,9 +18,34 @@ namespace play_with_me.common.Helpers
             return rawResponse.Content.ReadAsStringAsync().Result;
         }
 
+        public string GetStringResponse(string url, string cookie, Dictionary<string, string> headers)
+        {
+            if (headers == null)
+            {
+                headers = new Dictionary<string, string>();
+            }
+
+            var rawResponse = GetResponse(url, cookie, headers);
+            
+            return rawResponse.Content.ReadAsStringAsync().Result;
+        }
+
         public HttpResponseMessage GetResponse(string url)
         {
             return client.GetAsync(url).Result;
+        }
+
+        public HttpResponseMessage GetResponse(string url, string cookie, Dictionary<string, string> headers)
+        {
+            var message = new HttpRequestMessage(HttpMethod.Get, url);
+            
+            foreach (var header in headers)
+            {
+                message.Headers.Add(header.Key, header.Value);
+            }
+
+            message.Headers.Add("cookie", cookie);
+            return client.SendAsync(message).Result;
         }
 
         public HttpResponseMessage Post(string url, string postBody)
