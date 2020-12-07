@@ -12,14 +12,14 @@ https://docs.microsoft.com/en-us/azure/azure-functions/create-first-function-cli
 
 # Create resources
 
-az storage account create --name bccgnsteststr --location eastus --resource-group bccg-ns-test-rg --sku Standard_LRS
+az storage account create --name bccgnsteststr --location eastus --resource-group bccg-ns-test-rg --sku Standard_LRS  
 
-az functionapp create --resource-group bccg-ns-test-rg --consumption-plan-location eastus2 --runtime dotnet --functions-version 3 --name bccg-ns-test-func --storage-account bccgnsteststr
+az functionapp create --resource-group bccg-ns-test-rg --consumption-plan-location eastus2 --runtime dotnet --functions-version 3 --name   bccg-ns-test-func --storage-account bccgnsteststr  
 
 
 # Publish
 
-func azure functionapp publish bccg-ns-test-func
+func azure functionapp publish bccg-ns-test-func  
 
 
 # Test run
@@ -55,9 +55,9 @@ https://docs.microsoft.com/en-us/dotnet/core/deploying/deploy-with-cli
 dotnet publish -c Release -r 'osx.10.14-x64' --self-contained true
 
 ### Copy to local apps
-mkdir ~/workspace/console-apps/play-with-me/macos
-rm -rf ~/workspace/console-apps/play-with-me/macos
-cp -R ~/workspace/play-with-me/console/bin/Release/net5.0/osx.10.14-x64/publish/ ~/workspace/console-apps/play-with-me/macos
+mkdir ~/workspace/console-apps/play-with-me/macos  
+rm -rf ~/workspace/console-apps/play-with-me/macos  
+cp -R ~/workspace/play-with-me/console/bin/Release/net5.0/osx.10.14-x64/publish/ ~/workspace/console-apps/play-with-me/macos  
 
 # Publish console Linux
 
@@ -85,24 +85,24 @@ screen
 screen -r
 
 ### Screen
-ssh me@myserver.com
-screen               #start a screen session
-run-a-long-process
-CTRL+a , d to detatch from your screen session
+ssh me@myserver.com  
+screen               #start a screen session  
+run-a-long-process  
+CTRL+a , d to detatch from your screen session  
 
-exit                 #disconnect from the server, while run-a-long-process continues
-When you come back to your laptop:
-
-ssh me@myserver.com
-screen -r            #resume the screen session
-Then check out the progress of your long-running process!
-
-screen is a very comprehensive tool, and can do a lot more than what I've described. While in a screen session, try ctrl+a,? to learn a few common commands. Probably the most common are:
-
-CTRL+a , c to create a new window
-CTRL+a , n to switch to the next window in your screen session
-CTRL+a , p to switch to the previous window in your screen session
-if you log in from a bunch of different systems, you may have accidentally left yourself attached to an active screen session on a different computer. for that reason, I always resume with screen -d -r to ensure that if another shell is attached to my screen session, it will be detached before I resume it on my current system.
+exit                 #disconnect from the server, while run-a-long-process continues  
+When you come back to your laptop:  
+  
+ssh me@myserver.com  
+screen -r            #resume the screen session  
+Then check out the progress of your long-running process!  
+  
+screen is a very comprehensive tool, and can do a lot more than what I've described. While in a screen session, try ctrl+a,? to learn a few common commands. Probably the most common are:  
+  
+CTRL+a , c to create a new window  
+CTRL+a , n to switch to the next window in your screen session  
+CTRL+a , p to switch to the previous window in your screen session  
+if you log in from a bunch of different systems, you may have accidentally left yourself attached to an active screen session on a different computer. for that reason, I always resume with screen -d -r to ensure that if another shell is attached to my screen session, it will be detached before I resume it on my current system.  
 
 
 # TODO
