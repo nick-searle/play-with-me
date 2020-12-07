@@ -27,6 +27,7 @@ namespace PlayWithMe.Func
             ILogger log,
             ExecutionContext context)
         {
+            var response = string.Empty;
             try
             {
                 var mode = ((string)req.Query["mode"]) ?? string.Empty;
@@ -44,6 +45,9 @@ namespace PlayWithMe.Func
                         { "sec-fetch-mode", "cors" },
                         { "sec-fetch-site", "same-origin" },
                     });
+                    
+                    response = raw;
+
                     ps5 = JsonConvert.DeserializeObject<JObject>(raw);
                 }
                 else
@@ -64,7 +68,8 @@ namespace PlayWithMe.Func
             } 
             catch (Exception ex)
             {
-                return new ExceptionResult(ex, true);
+                var detailEx = new Exception($"Gamestop Server Response: {response}", ex);
+                return new ExceptionResult(detailEx, true);
             }
         }
     }

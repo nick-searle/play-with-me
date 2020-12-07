@@ -27,11 +27,15 @@ namespace PlayWithMe.Func
             ILogger log,
             ExecutionContext context)
         {
+            var lastResponse = string.Empty;
             try
             {
                 var mode = ((string)req.Query["mode"]) ?? string.Empty;
 
                 var rawResponse = httpHelper.GetResponse("https://www.target.com");
+
+                lastResponse = rawResponse.Content.ReadAsStringAsync().Result;
+
                 var responseHeaders = rawResponse.Headers;
                 var key = httpHelper.GetCookie(responseHeaders, "visitorId");
 
@@ -51,6 +55,8 @@ namespace PlayWithMe.Func
                     searchResults = httpHelper.GetStringResponse($"https://redsky.target.com/v2/plp/search/?channel=web&count=96&keyword={searchTerm}&offset=0&pricing_store_id=3991&key={key}");
                 }
 
+                lastResponse = searchResults;
+                
                 var items = new List<TargetSearchItem>();
                 foreach (var item in JsonConvert.DeserializeObject<JObject>(searchResults)["search_response"]["items"]["Item"])
                 {
@@ -84,7 +90,8 @@ namespace PlayWithMe.Func
             } 
             catch (Exception ex)
             {
-                return new ExceptionResult(ex, true);
+                var detailEx = new Exception($"Target Server Response: {lastResponse}", ex);
+                return new ExceptionResult(detailEx, true);
             }            
         }
     }

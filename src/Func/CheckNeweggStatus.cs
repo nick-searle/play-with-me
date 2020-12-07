@@ -27,7 +27,7 @@ namespace PlayWithMe.Func
             ILogger log,
             ExecutionContext context)
         {
-            string response = string.Empty;
+            var response = string.Empty;
             try
             {
                 var mode = ((string)req.Query["mode"]) ?? string.Empty;
