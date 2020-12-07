@@ -26,12 +26,14 @@ func azure functionapp publish bccg-ns-test-func
 
 func start
 
-- curl 'http://localhost:7071/api/CheckTargetStatus?mode=-l&key=ff457966e64d5e877fdbad070f276d18ecec4a01'
+- curl 'http://localhost:7071/api/CheckTargetStatus?mode=-l'
 - curl 'http://localhost:7071/api/CheckNeweggStatus?mode=-l'
 - curl 'http://localhost:7071/api/CheckGamestopStatus?mode=-l'
 
-- curl 'https://bccg-ns-test-func.azurewebsites.net/api/checktargetstatus?mode=-l&key=ff457966e64d5e877fdbad070f276d18ecec4a01&code=woxKa6bScWocvrGV6zZIjoOoHdVI3V5yxWz1bhekISzzFuafL5GkKg=='
+- curl 'https://bccg-ns-test-func.azurewebsites.net/api/checktargetstatus?mode=-l&code=woxKa6bScWocvrGV6zZIjoOoHdVI3V5yxWz1bhekISzzFuafL5GkKg=='
 - curl 'https://bccg-ns-test-func.azurewebsites.net/api/checkneweggstatus?mode=-l&code=uIsqGlUhAv7FVZhIHaJin6U4A050ak0l2ucHnkq6sCaajUCyBAR/jw=='
+- curl 'https://bccg-ns-test-func.azurewebsites.net/api/checkgamestopstatus?mode=-l&code=5t2DeTTf4aslgSY2TUy3QDOfEeGO9muNvP4nPH8tZRRb6A8OTHEBPA=='
+
 
 ### Get process id for debug
 
