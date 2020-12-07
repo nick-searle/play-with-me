@@ -46,9 +46,18 @@ namespace PlayWithMe.ConsoleApp
             var gamestopService = new GamestopService();
             
             var count = 0;
-            var random = new Random(1);            
+            var random = new Random(1);
             do
             {
+                if (count > 1000)
+                {
+                    count = 0;
+                    random = new Random(1);
+                    log.Info("Taking my 1 hour union break");
+                    log.Info("");
+                    Thread.Sleep(TimeSpan.FromHours(1));
+                }
+
                 log.Info($"Running at {DateTime.Now}");
                 log.Info("");
 

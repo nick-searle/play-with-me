@@ -57,6 +57,11 @@ namespace PlayWithMe.ConsoleApp.Services
                         log.Error("");
                         return items;
                     }
+
+                    if (timeSinceLastError.Value.TotalHours > 30)
+                    {
+                        consecutiveFails = 0;
+                    }
                 }
 
                 var funcUrl = $"https://bccg-ns-test-func.azurewebsites.net/api/{methodName}?mode={mode}&code={key}";
