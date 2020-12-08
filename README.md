@@ -123,6 +123,7 @@ if you log in from a bunch of different systems, you may have accidentally left 
 - Add Walmart
 
 ### Future
+- Dynamically create accounts via temp email and send creds in email
 - Move codes to Key Vault
 - Make things async
 - Add flexible search to work for anything not just PS5
