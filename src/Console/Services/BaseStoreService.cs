@@ -16,8 +16,10 @@ namespace PlayWithMe.ConsoleApp.Services
         private readonly string storeName;
         private readonly string methodName;
         private readonly string key;
+        private int maxConsecutiveFails = 0;
         private int consecutiveFails = 0;
-        private DateTime? lastError = null;
+        private DateTime lastError = DateTime.MinValue;
+        private bool consecutiveError = false;
 
         public BaseStoreService(string storeName, string methodName, string key)
         {
@@ -28,7 +30,7 @@ namespace PlayWithMe.ConsoleApp.Services
 
         private int GetWaitTime()
         {
-            switch (consecutiveFails)
+            switch (maxConsecutiveFails)
             {
                 case 1:
                     return 1;
@@ -45,25 +47,25 @@ namespace PlayWithMe.ConsoleApp.Services
         {
             var items = new List<SearchItem>();
             try
-            {                
+            {
                 if (consecutiveFails > 0)
                 {
                     var timeSinceLastError = DateTime.Now - lastError;
                     var waitTime = GetWaitTime();
 
-                    if (timeSinceLastError.Value.TotalHours < waitTime)
+                    if (timeSinceLastError.TotalHours < waitTime)
                     {
-                        log.Error($"{storeName} Fails Count {consecutiveFails} Waiting: {waitTime} hour");
+                        log.Error($"{storeName} Fails Count {consecutiveFails} Waiting: {waitTime} hour(s)");
                         log.Error("");
                         return items;
                     }
 
-                    if (timeSinceLastError.Value.TotalHours > 30)
+                    if (timeSinceLastError.TotalHours > 30)
                     {
                         consecutiveFails = 0;
                     }
                 }
-
+                
                 var funcUrl = $"https://bccg-ns-test-func.azurewebsites.net/api/{methodName}?mode={mode}&code={key}";
 
                 if (mode.Contains("-d"))
@@ -82,11 +84,26 @@ namespace PlayWithMe.ConsoleApp.Services
                 log.Info($"{storeName} Response: {JsonConvert.SerializeObject(items)}");
                 log.Info("");
 
+                consecutiveError = false;
+
                 return items;
             }
             catch (Exception ex)
             {
-                consecutiveFails++;
+                if (consecutiveError)
+                {
+                    consecutiveFails++;
+
+                    if (consecutiveFails > maxConsecutiveFails)
+                    {
+                        maxConsecutiveFails = consecutiveFails;
+                    }
+                }
+                else
+                {
+                    consecutiveError = true;
+                }
+
                 lastError = DateTime.Now;
                 log.Error(ex);
                 return items;
